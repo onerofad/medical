@@ -3,7 +3,7 @@ import logo from '../assets/images/logo.svg'
 const NavBar = () => {
     return(
         <div style={{margin: 0, padding: 0}}>
-             <Menu
+        <Menu
             secondary
             style={{height: '68px'}}
         >

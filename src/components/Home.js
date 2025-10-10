@@ -12,15 +12,7 @@ import FrequentQuestion from "./FrequentQuestion"
 import Mission from "./Mission"
 import Footer from "./Footer"
 
-const Home = ({mobile}) => {
-    if(mobile){
-        return(
-            <div>
-                Coming Soon
-            </div>
-        )
-
-    }else{
+const Home = () => {
     return(
         <>
         <NavBar />
@@ -38,7 +30,5 @@ const Home = ({mobile}) => {
         <Footer />
         </>
     )
-    }
-    
 }
 export default Home

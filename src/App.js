@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router';
 import { createMedia } from '@artsy/fresnel';
 import Home from './components/Home';
 import 'semantic-ui-css/semantic.min.css'
+import HomeMobile from './components/mobile/HomeMobile';
 
 const {Media, MediaContextProvider} = createMedia({
   breakpoints: {
@@ -19,7 +20,7 @@ function App() {
       <Media at='mobile'>
         <BrowserRouter>
           <Routes>
-            <Route index element={<Home mobile />} />
+            <Route index element={<HomeMobile />} />
           </Routes>
         </BrowserRouter>
       </Media>
