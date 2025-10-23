@@ -2,7 +2,7 @@ import { Grid, GridColumn, Header, Icon } from "semantic-ui-react"
 
 const FooterMobile = () => {
     return(
-        <div style={{margin: 0, padding: '100px 50px', background: '#D10000'}}>
+        <div style={{margin: 0, padding: '100px 20px', background: '#D10000'}}>
             <Grid columns={2}>
                     <GridColumn width={8}>
                         <Header

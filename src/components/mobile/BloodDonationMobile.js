@@ -5,7 +5,7 @@ import blood_img2 from '../../assets/images/blood_donate2.png'
 import blood_img3 from '../../assets/images/blood_donate3.png'
 const BloodDonationMobile = () => {
     return(
-        <div style={{margin: 0, padding: '50px', background: '#F8F9FA'}}>
+        <div style={{margin: 0, padding: '50px 20px', background: '#F8F9FA'}}>
             <Header
                 style={{
                     color: '#333',

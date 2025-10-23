@@ -2,7 +2,7 @@ import { Button, Header } from "semantic-ui-react"
 
 const EmergencyBloodMobile = () => {
     return(
-       <div style={{margin: 0, padding: '50px', background: '#D10000'}}>
+       <div style={{margin: 0, padding: '50px 20px', background: '#D10000'}}>
             <Header
                 style={{
                     color: '#fff',

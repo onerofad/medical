@@ -7,7 +7,7 @@ import fav4 from '../../assets/images/icon-park-solid_hospital-two.svg'
 
 const AchievementMobile = () => {
     return(
-        <div style={{margin: 0, padding: '50px', background: '#F8F9FA'}}>
+        <div style={{margin: 0, padding: '50px 20px', background: '#F8F9FA'}}>
             <Header
                 style={{
                     color: '#333',

@@ -44,7 +44,7 @@ const LatestBlogMobile = () => {
                 padding: '40px 30px'
 
             }}>
-                <Grid columns={2}>
+                <Grid columns={1}>
                      <GridColumn verticalAlign="middle">
                          <Header
                             style={{
@@ -84,9 +84,7 @@ const LatestBlogMobile = () => {
                         >
                             Professor Muhammad Ali pate
                         </Header>
-                    </GridColumn> 
-                    <GridColumn>
-                        <Image floated="right" src={minister} />
+                        <Image fluid src={minister} />
                     </GridColumn> 
                 </Grid>
             </Segment>

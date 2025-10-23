@@ -29,7 +29,7 @@ const BloodDriveMobile = () => {
                     fontStyle: 'normal',
                     fontWeight: 400,
                     lineHeight: '26px',
-                    padding: '0px 40px'
+                    padding: '0px 20px'
                 }}
             >
                 Stay updated on local blood drives, community events, and special campaigns, coming up soon.           
