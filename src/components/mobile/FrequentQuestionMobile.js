@@ -1,8 +1,8 @@
-import { Grid, GridColumn, Header, Icon, List, ListContent, ListIcon, ListItem } from "semantic-ui-react"
+import { Grid, GridColumn, Header, List, Icon, ListContent, ListItem } from "semantic-ui-react"
 
-const FrequentQuestion = () => {
+const FrequentQuestionMobile = () => {
     return(
-        <div style={{margin: 0, padding: '50px 100px', background: '#F8F9FA'}}>
+        <div style={{margin: 0, padding: '50px 20px', background: '#F8F9FA'}}>
             <Header
             style={{
                     color: '#333',
@@ -18,8 +18,8 @@ const FrequentQuestion = () => {
             >
                 Frequently Asked Questions
             </Header>
-            <Grid columns={2} style={{marginTop: 40}}>
-                <GridColumn>
+            <Grid style={{marginTop: 40}}>
+                <GridColumn width={16}>
                     <List size="big" celled>
                         <ListItem style={{ color: '#333',
                                             fontFamily: 'Inter',
@@ -73,10 +73,6 @@ const FrequentQuestion = () => {
                             <ListContent floated="right"><Icon name="plus" /></ListContent>
 
                         </ListItem>
-                    </List>
-                </GridColumn>
-                <GridColumn >
-                    <List size="big" celled>
                         <ListItem style={{ color: '#333',
                                             fontFamily: 'Inter',
                                             fontSize: '18px',
@@ -134,4 +130,4 @@ const FrequentQuestion = () => {
         </div>
     )
 }
-export default FrequentQuestion
+export default FrequentQuestionMobile

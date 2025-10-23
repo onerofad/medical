@@ -1,16 +1,16 @@
-import { Grid, GridColumn, Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
-import blood_drive21 from '../assets/images/blood_drive21.png'
-import blood_drive22 from '../assets/images/blood_drive22.png'
-import blood_drive23 from '../assets/images/blood_drive23.png'
+import { GridColumn, Grid, Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
+import blood_drive21 from '../../assets/images/blood_drive21.png'
+import blood_drive22 from '../../assets/images/blood_drive22.png'
+import blood_drive23 from '../../assets/images/blood_drive23.png'
 
-const BloodDrive2 = () => {
+const BloodDriveMobile2 = () => {
     return(
-            <div style={{margin: 0, padding: '50px 100px', background: '#F8F9FA'}}>
-            <Grid columns={3} style={{}}>
-                <GridColumn>
+<div style={{margin: 0, padding: '50px 20px', background: '#F8F9FA'}}>
+            <Grid style={{}}>
+                <GridColumn style={{marginTop: 20}} width={16}>
                     <Segment vertical style={{paddingTop: 0, background: '#fff', borderRadius: 30}}>
                     <Image fluid src={blood_drive21} />
-                    <Header 
+                    <Header
                         style={{
                             color: '#333',
                             fontFamily: 'Inter',
@@ -40,7 +40,7 @@ const BloodDrive2 = () => {
                     </Header>
                     </Segment>
                 </GridColumn>
-                <GridColumn>
+                <GridColumn style={{marginTop: 20}} width={16}>
                     <Segment vertical style={{paddingTop: 0, background: '#fff', borderRadius: 30}}>
                     <Image fluid src={blood_drive22} />
                     <Header
@@ -72,7 +72,7 @@ const BloodDrive2 = () => {
                     </Header>
                     </Segment>
                 </GridColumn>
-                <GridColumn>
+                <GridColumn style={{marginTop: 20}} width={16}>
                     <Segment vertical style={{paddingTop: 0, background: '#fff', borderRadius: 30}}>
                     <Image fluid src={blood_drive23} />
                     <Header
@@ -109,4 +109,4 @@ const BloodDrive2 = () => {
         </div>
     )
 }
-export default BloodDrive2
+export default BloodDriveMobile2
