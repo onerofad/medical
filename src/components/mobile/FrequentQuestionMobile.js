@@ -20,7 +20,7 @@ const FrequentQuestionMobile = () => {
             </Header>
             <Grid style={{marginTop: 40}}>
                 <GridColumn width={16}>
-                    <List size="large" celled>
+                    <List size="medium" celled>
                         <ListItem style={{ color: '#333',
                                             fontFamily: 'Inter',
                                             fontSize: '18px',

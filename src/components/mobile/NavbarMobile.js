@@ -25,11 +25,11 @@ const NavBarMobile = () => {
                         visible={visible}
                         vertical
                         secondary
-                        width="wide"
+                        width="very wide"
                         style={{background: '#F8F9FA', maxHeight: 500}}
                         onHide={() => setVisible(false)}
                         animation="overlay"
-                        direction="left" 
+                        direction="top" 
                     >
                     <Container>
                     <Menu.Item position="right">
