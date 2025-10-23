@@ -32,9 +32,9 @@ const NavBarMobile = () => {
                         direction="top" 
                     >
                     <Container>
-                    <Menu.Item>
+                    {/*<Menu.Item>
                         <Icon style={{float: "right"}} color="red" onClick={() => setVisible(!visible)} link size="large" name="close" />
-                    </Menu.Item>
+                    </Menu.Item>*/}
                     <Menu.Item
                         style={{
                             color: '#D10000',
