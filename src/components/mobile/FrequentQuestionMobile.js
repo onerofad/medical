@@ -23,7 +23,7 @@ const FrequentQuestionMobile = () => {
                     <List size="small" celled>
                         <ListItem style={{ color: '#333',
                                             fontFamily: 'Inter',
-                                            fontSize: '18px',
+                                            fontSize: '16px',
                                             fontStyle: 'normal',
                                             fontWeight: 400,
                                             padding: '20px 0px', 
@@ -35,7 +35,7 @@ const FrequentQuestionMobile = () => {
                         </ListItem>
                         <ListItem style={{ color: '#333',
                                             fontFamily: 'Inter',
-                                            fontSize: '18px',
+                                            fontSize: '16px',
                                             fontStyle: 'normal',
                                             fontWeight: 400,
                                             padding: '20px 0px', 
@@ -49,7 +49,7 @@ const FrequentQuestionMobile = () => {
                         </ListItem>
                         <ListItem style={{ color: '#333',
                                             fontFamily: 'Inter',
-                                            fontSize: '18px',
+                                            fontSize: '16px',
                                             fontStyle: 'normal',
                                             fontWeight: 400,
                                             padding: '20px 0px', 
@@ -62,7 +62,7 @@ const FrequentQuestionMobile = () => {
                         </ListItem>
                         <ListItem style={{ color: '#333',
                                             fontFamily: 'Inter',
-                                            fontSize: '18px',
+                                            fontSize: '16px',
                                             fontStyle: 'normal',
                                             fontWeight: 400,
                                             padding: '20px 0px', 
@@ -75,7 +75,7 @@ const FrequentQuestionMobile = () => {
                         </ListItem>
                         <ListItem style={{ color: '#333',
                                             fontFamily: 'Inter',
-                                            fontSize: '18px',
+                                            fontSize: '16px',
                                             fontStyle: 'normal',
                                             fontWeight: 400,
                                             padding: '20px 0px', 
@@ -87,7 +87,7 @@ const FrequentQuestionMobile = () => {
                         </ListItem>
                         <ListItem style={{ color: '#333',
                                             fontFamily: 'Inter',
-                                            fontSize: '18px',
+                                            fontSize: '16px',
                                             fontStyle: 'normal',
                                             fontWeight: 400,
                                             padding: '20px 0px', 
@@ -100,7 +100,7 @@ const FrequentQuestionMobile = () => {
                         </ListItem>
                         <ListItem style={{ color: '#333',
                                             fontFamily: 'Inter',
-                                            fontSize: '18px',
+                                            fontSize: '16px',
                                             fontStyle: 'normal',
                                             fontWeight: 400,
                                             padding: '20px 0px', 
@@ -113,7 +113,7 @@ const FrequentQuestionMobile = () => {
                         </ListItem>
                         <ListItem style={{ color: '#333',
                                             fontFamily: 'Inter',
-                                            fontSize: '18px',
+                                            fontSize: '16px',
                                             fontStyle: 'normal',
                                             fontWeight: 400,
                                             padding: '20px 0px', 
