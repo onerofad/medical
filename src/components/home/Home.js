@@ -1,5 +1,5 @@
 import WallPaper from "./WallPaper"
-import NavBar from "./NavBar"
+import NavBar from "../NavBar"
 import About from "./About"
 import Achievement from "./Achievement"
 import BloodDonation from "./BloodDonation"
@@ -10,7 +10,7 @@ import BloodDrive from "./BloodDrive"
 import BloodDrive2 from "./BloodDrive2"
 import FrequentQuestion from "./FrequentQuestion"
 import Mission from "./Mission"
-import Footer from "./Footer"
+import Footer from "../Footer"
 
 const Home = () => {
     return(

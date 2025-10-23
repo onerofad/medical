@@ -2,10 +2,10 @@ import { Grid, GridColumn, Header, HeaderContent, HeaderSubheader, Icon, Image, 
 import blood_drive1 from '../../assets/images/blood_drive1.png'
 import blood_drive2 from '../../assets/images/blood_drive2.png'
 
-const BloodDriveMobile = () => {
+const BloodDrive = () => {
     return(
-        <div style={{margin: 0, padding: '50px 20px', background: '#F8F9FA'}}>
-            <Header
+        <div style={{margin: 0, padding: '50px 100px', background: '#F8F9FA'}}>
+                <Header
                 style={{
                     color: '#333',
                     textAlign: 'center',
@@ -25,17 +25,17 @@ const BloodDriveMobile = () => {
                     color: '#333',
                     textAlign: 'center',
                     fontFamily: 'Inter',
-                    fontSize: '14px',
+                    fontSize: '18px',
                     fontStyle: 'normal',
                     fontWeight: 400,
                     lineHeight: '26px',
-                    padding: '0px 20px'
+                    padding: '0px 240px'
                 }}
             >
                 Stay updated on local blood drives, community events, and special campaigns, coming up soon.           
             </Header>
-            <Grid style={{marginTop: 40}}>
-                <GridColumn style={{marginTop: 20}} width={16}>
+            <Grid columns={3} style={{marginTop: 40}}>
+                <GridColumn>
                     <Segment vertical style={{paddingTop: 0, background: '#fff', borderRadius: 30}}>
                     <Image style={{}} fluid src={blood_drive1} />
                     <Header style={{padding: '0px 20px'}}>
@@ -93,7 +93,7 @@ const BloodDriveMobile = () => {
                     </Header>
                     </Segment>
                 </GridColumn>
-                <GridColumn style={{marginTop: 20}} width={16}>
+                <GridColumn>
                     <Segment vertical style={{paddingTop: 0, background: '#fff', borderRadius: 30}}>
                     <Image fluid src={blood_drive1} />
                     <Header style={{padding: '0px 20px'}}>
@@ -152,7 +152,7 @@ const BloodDriveMobile = () => {
                     </Header>
                     </Segment>
                 </GridColumn>
-                <GridColumn style={{marginTop: 20}} width={16}>
+                <GridColumn>
                     <Segment vertical style={{paddingTop: 0, background: '#fff', borderRadius: 30}}>
                     <Image fluid src={blood_drive2} />
                      <Header style={{padding: '0px 20px'}}>
@@ -215,4 +215,4 @@ const BloodDriveMobile = () => {
         </div>
     )
 }
-export default BloodDriveMobile
+export default BloodDrive

@@ -1,7 +1,7 @@
-import { Button, Header } from "semantic-ui-react"
+import { Button, Grid, GridColumn, Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
 import '../../css/style.css'
 
-const WallPaperMobile = () => {
+const WallPaper = () => {
     return(
         <div className="wallpaper" style={{margin: 0, padding: 0}}>
            <Header
@@ -9,9 +9,9 @@ const WallPaperMobile = () => {
             style={{
                 color: '#F8F9FA',
                 fontFamily: 'Inter',
-                fontSize: '32px',
+                fontSize: '40px',
                 fontStyle: 'normal',
-                fontWeight: 900,
+                fontWeight: 700,
                 lineHeight: 'normal',
                 paddingTop: 280
             }}
@@ -23,7 +23,7 @@ const WallPaperMobile = () => {
              style={{
                 color: '#fff',
                 fontFamily: 'Inter',
-                fontSize: '16px',
+                fontSize: '24px',
                 fontStyle: 'normal',
                 fontWeight: 500,
                 lineHeight: 'normal',
@@ -54,4 +54,4 @@ const WallPaperMobile = () => {
         </div>
     )
 }
-export default WallPaperMobile
+export default WallPaper

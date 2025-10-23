@@ -1,8 +1,8 @@
 import { Grid, GridColumn, Header, Image, Segment } from "semantic-ui-react"
-import fav1 from '../assets/images/healthicons_inpatient.svg'
-import fav2 from '../assets/images/game-icons_archive-register.svg'
-import fav3 from '../assets/images/mdi_blood-bag.svg'
-import fav4 from '../assets/images/icon-park-solid_hospital-two.svg'
+import fav1 from '../../assets/images/healthicons_inpatient.svg'
+import fav2 from '../../assets/images/game-icons_archive-register.svg'
+import fav3 from '../../assets/images/mdi_blood-bag.svg'
+import fav4 from '../../assets/images/icon-park-solid_hospital-two.svg'
 
 const Achievement = () => {
     return(

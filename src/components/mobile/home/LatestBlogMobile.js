@@ -1,8 +1,9 @@
-import { Header, Segment, Image, Grid, GridColumn, HeaderSubheader, HeaderContent } from "semantic-ui-react"
-import minister from '../assets/images/min.png'
-const LatestBlog = () => {
+import { Grid, GridColumn, Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
+import minister from '../../../assets/images/min.png'
+
+const LatestBlogMobile = () => {
     return(
-<div style={{margin: 0, padding: '50px 220px', background: '#F8F9FA'}}>
+<div style={{margin: 0, padding: '20px 20px', background: '#F8F9FA'}}>
             <Header
                 style={{
                     color: '#333',
@@ -23,11 +24,11 @@ const LatestBlog = () => {
                     color: '#333',
                     textAlign: 'center',
                     fontFamily: 'Inter',
-                    fontSize: '18px',
+                    fontSize: '14px',
                     fontStyle: 'normal',
                     fontWeight: 400,
                     lineHeight: 'normal',
-                    padding: '0px 240px'
+                    padding: '0px 0px'
                 }}
             >
                 we keep you updated on the news around you see below           
@@ -40,10 +41,10 @@ const LatestBlog = () => {
                 borderStyle: 'solid',
                 borderColor: '#D10000',
                 background: '#fff',
-                padding: '40px 60px'
+                padding: '40px 30px'
 
             }}>
-                <Grid columns={2}>
+                <Grid columns={1}>
                      <GridColumn verticalAlign="middle">
                          <Header
                             style={{
@@ -83,13 +84,11 @@ const LatestBlog = () => {
                         >
                             Professor Muhammad Ali pate
                         </Header>
-                    </GridColumn> 
-                    <GridColumn>
-                        <Image floated="right" src={minister} />
+                        <Image fluid src={minister} />
                     </GridColumn> 
                 </Grid>
             </Segment>
         </div>
     )
 }
-export default LatestBlog
+export default LatestBlogMobile

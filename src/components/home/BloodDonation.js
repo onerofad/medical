@@ -1,14 +1,17 @@
-import { Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
-
+import { Card, CardContent, Grid, GridColumn, Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
 import blood_img1 from '../../assets/images/blood_donate1.png'
 import blood_img2 from '../../assets/images/blood_donate2.png'
 import blood_img3 from '../../assets/images/blood_donate3.png'
-const BloodDonationMobile = () => {
+
+const BloodDonation = () => {
     return(
-        <div style={{margin: 0, padding: '50px 20px', background: '#F8F9FA'}}>
-            <Header
+            <div style={{margin: 0, padding: '50px 100px', background: '#F8F9FA'}}>
+                <Header
                 style={{
                     color: '#333',
+                    textAlign: 'center',
+                    leadingTrim: 'both',
+                    textEdge: 'cap',
                     fontFamily: 'Inter',
                     fontSize: '32px',
                     fontStyle: 'normal',
@@ -21,17 +24,20 @@ const BloodDonationMobile = () => {
             <Header
                 style={{
                     color: '#333',
+                    textAlign: 'center',
                     fontFamily: 'Inter',
-                    fontSize: '14px',
+                    fontSize: '20px',
                     fontStyle: 'normal',
                     fontWeight: 400,
-                    lineHeight: '22px'
+                    lineHeight: '30px',
+                    padding: '0px 240px'
                 }}
             >
                 Donating blood is a simple, life-saving act that takes about 45 minutes to 1 hour (including registration and recovery). Here’s what to expect:
             </Header>
-
-            <Segment vertical style={{paddingTop: 0, marginTop: 40, background: '#fff', borderRadius: 30}}>
+            <Grid columns={3} style={{marginTop: 40}}>
+                <GridColumn>
+                    <Segment vertical style={{paddingTop: 0, background: '#fff', borderRadius: 30}}>
                     <Image fluid src={blood_img1} />
                     <Header 
                         style={{
@@ -62,8 +68,10 @@ const BloodDonationMobile = () => {
 
                         </HeaderSubheader>
                     </Header>
-            </Segment>
-            <Segment vertical style={{paddingTop: 0, marginTop: 40, background: '#fff', borderRadius: 30}}>
+                    </Segment>
+                </GridColumn>
+                <GridColumn>
+                    <Segment vertical style={{paddingTop: 0, background: '#fff', borderRadius: 30}}>
                     <Image fluid src={blood_img2} />
                     <Header
                         style={{
@@ -92,8 +100,10 @@ const BloodDonationMobile = () => {
                             Before donating, a brief screening of your vitals, and hemoglobin levels.
                         </HeaderSubheader>
                     </Header>
-            </Segment>
-             <Segment vertical style={{paddingTop: 0, marginTop: 40, background: '#fff', borderRadius: 30}}>
+                    </Segment>
+                </GridColumn>
+                <GridColumn>
+                    <Segment vertical style={{paddingTop: 0, background: '#fff', borderRadius: 30}}>
                     <Image fluid src={blood_img3} />
                     <Header
                         style={{
@@ -122,8 +132,11 @@ const BloodDonationMobile = () => {
 A                           sterile needle collects about 1 pint of blood from your arm in just 8-10 minutes.
                         </HeaderSubheader>
                     </Header>
-            </Segment>
+                    </Segment>
+                </GridColumn>
+            </Grid>
+
         </div>
     )
 }
-export default BloodDonationMobile
+export default BloodDonation

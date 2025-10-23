@@ -7,10 +7,10 @@ import EmergencyBloodMobile from "./EmergencyBloodMobile"
 import FrequentQuestionMobile from "./FrequentQuestionMobile"
 import LatestBlogMobile from "./LatestBlogMobile"
 import MissionMobile from "./MissionMobile"
-import NavBarMobile from "./NavbarMobile"
+import NavBarMobile from "../NavbarMobile"
 import WallPaperMobile from "./WallpaperMobile"
 import WhatPeopleSayMobile from "./WhatPeopleSayMobile"
-import FooterMobile from './FooterMobile'
+import FooterMobile from '../FooterMobile'
 
 const HomeMobile = () => {
     return(

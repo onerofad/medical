@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router';
 import { createMedia } from '@artsy/fresnel';
-import Home from './components/Home';
+import Home from './components/home/Home';
 import 'semantic-ui-css/semantic.min.css'
-import HomeMobile from './components/mobile/HomeMobile';
+import HomeMobile from './components/mobile/home/HomeMobile';
 
 const {Media, MediaContextProvider} = createMedia({
   breakpoints: {

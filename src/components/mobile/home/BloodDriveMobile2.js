@@ -1,45 +1,16 @@
-import { Card, CardContent, Grid, GridColumn, Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
-import blood_img1 from '../assets/images/blood_donate1.png'
-import blood_img2 from '../assets/images/blood_donate2.png'
-import blood_img3 from '../assets/images/blood_donate3.png'
+import { GridColumn, Grid, Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
+import blood_drive21 from '../../../assets/images/blood_drive21.png'
+import blood_drive22 from '../../../assets/images/blood_drive22.png'
+import blood_drive23 from '../../../assets/images/blood_drive23.png'
 
-const BloodDonation = () => {
+const BloodDriveMobile2 = () => {
     return(
-            <div style={{margin: 0, padding: '50px 100px', background: '#F8F9FA'}}>
-                <Header
-                style={{
-                    color: '#333',
-                    textAlign: 'center',
-                    leadingTrim: 'both',
-                    textEdge: 'cap',
-                    fontFamily: 'Inter',
-                    fontSize: '32px',
-                    fontStyle: 'normal',
-                    fontWeight: 700,
-                    lineHeight: 'normal'
-                }}
-            >
-                Blood Donation Process
-            </Header>
-            <Header
-                style={{
-                    color: '#333',
-                    textAlign: 'center',
-                    fontFamily: 'Inter',
-                    fontSize: '20px',
-                    fontStyle: 'normal',
-                    fontWeight: 400,
-                    lineHeight: '30px',
-                    padding: '0px 240px'
-                }}
-            >
-                Donating blood is a simple, life-saving act that takes about 45 minutes to 1 hour (including registration and recovery). Here’s what to expect:
-            </Header>
-            <Grid columns={3} style={{marginTop: 40}}>
-                <GridColumn>
+<div style={{margin: 0, padding: '50px 20px', background: '#F8F9FA'}}>
+            <Grid style={{}}>
+                <GridColumn style={{marginTop: 20}} width={16}>
                     <Segment vertical style={{paddingTop: 0, background: '#fff', borderRadius: 30}}>
-                    <Image fluid src={blood_img1} />
-                    <Header 
+                    <Image fluid src={blood_drive21} />
+                    <Header
                         style={{
                             color: '#333',
                             fontFamily: 'Inter',
@@ -50,7 +21,7 @@ const BloodDonation = () => {
                             padding: '0px 20px'
                         }}
                     >
-                        <HeaderContent>Book appointment</HeaderContent>
+                        <HeaderContent>Every Drop Counts</HeaderContent>
                         <HeaderSubheader
                              style={{
                             color: '#333',
@@ -64,15 +35,14 @@ const BloodDonation = () => {
 
                         }}
                         >
-                            Start by choosing a convenient date, time, and convenient donation center. 
-
+                            No matter how small, your contribution can make a huge impact. Give a live hope  today.
                         </HeaderSubheader>
                     </Header>
                     </Segment>
                 </GridColumn>
-                <GridColumn>
+                <GridColumn style={{marginTop: 20}} width={16}>
                     <Segment vertical style={{paddingTop: 0, background: '#fff', borderRadius: 30}}>
-                    <Image fluid src={blood_img2} />
+                    <Image fluid src={blood_drive22} />
                     <Header
                         style={{
                             color: '#333',
@@ -84,7 +54,7 @@ const BloodDonation = () => {
                             padding: '0px 20px'
                         }}
                     >
-                        <HeaderContent>Health check</HeaderContent>
+                        <HeaderContent>Tips Before Donating</HeaderContent>
                         <HeaderSubheader
                              style={{
                             color: '#333',
@@ -97,14 +67,14 @@ const BloodDonation = () => {
                             lineHeight: '26px'
                         }}
                         >
-                            Before donating, a brief screening of your vitals, and hemoglobin levels.
+                            Drink plenty of water, have a healthy meal and rest, to ensure a smooth  donation experience.
                         </HeaderSubheader>
                     </Header>
                     </Segment>
                 </GridColumn>
-                <GridColumn>
+                <GridColumn style={{marginTop: 20}} width={16}>
                     <Segment vertical style={{paddingTop: 0, background: '#fff', borderRadius: 30}}>
-                    <Image fluid src={blood_img3} />
+                    <Image fluid src={blood_drive23} />
                     <Header
                         style={{
                             color: '#333',
@@ -116,7 +86,7 @@ const BloodDonation = () => {
                             padding: '0px 20px'
                         }}
                     >
-                        <HeaderContent>Blood Donation</HeaderContent>
+                        <HeaderContent>Heroes Donate Blood</HeaderContent>
                         <HeaderSubheader
                              style={{
                             color: '#333',
@@ -129,7 +99,7 @@ const BloodDonation = () => {
                             lineHeight: '26px'
                         }}
                         >
-A                           sterile needle collects about 1 pint of blood from your arm in just 8-10 minutes.
+                            Your simple act of donating blood can save lives and bring hope to those in need of blood today.
                         </HeaderSubheader>
                     </Header>
                     </Segment>
@@ -139,4 +109,4 @@ A                           sterile needle collects about 1 pint of blood from y
         </div>
     )
 }
-export default BloodDonation
+export default BloodDriveMobile2
