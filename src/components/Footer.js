@@ -170,7 +170,7 @@ const Footer = () => {
                         </Header>
                         <Grid stackable columns={3}>
                             <GridColumn>
-                                <Icon size="big" color='red'  circular inverted name="facebook" />
+                                <Icon size="big" color="red"  circular inverted name="facebook" />
                             </GridColumn>
                             <GridColumn>
                                  <Icon size="big" color='red' circular inverted name="twitter" />

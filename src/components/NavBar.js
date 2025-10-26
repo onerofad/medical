@@ -1,6 +1,10 @@
 import { Button, Container, Image, Menu } from "semantic-ui-react"
 import logo from '../assets/images/logo.svg'
-const NavBar = () => {
+import { useNavigate } from "react-router"
+import { useState } from "react";
+const NavBar = ({link_value}) => {
+    const navigate = useNavigate();
+    const [activeItem, setActiveItem] = useState(link_value);
     return(
         <div style={{margin: 0, padding: 0}}>
         <Menu
@@ -22,6 +26,15 @@ const NavBar = () => {
                     fontWeight: 900,
                     lineHeight: 'normal'
                 }}
+                as="a"
+                name="Home"
+                active={activeItem === "Home"}
+                onClick={() => {
+                    setActiveItem("Home")
+                    navigate("/")
+                }
+                }
+
             >
                 Home
             </Menu.Item>
@@ -34,6 +47,14 @@ const NavBar = () => {
                     fontWeight: 400,
                     lineHeight: 'normal'
                 }}
+                as="a"
+                name="About"
+                active={activeItem === "About"}
+                onClick={() => {
+                    setActiveItem("About")
+                    navigate("/about")
+                }
+                }
             >
                 About Us
             </Menu.Item>
@@ -46,6 +67,14 @@ const NavBar = () => {
                     fontWeight: 400,
                     lineHeight: 'normal'
                 }}
+                as="a"
+                name="Donor"
+                active={activeItem === "Donor"}
+                onClick={() => {
+                    setActiveItem("Donor")
+                    navigate("/donor")
+                }
+            }
             >
                 Donor
             </Menu.Item>

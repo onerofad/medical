@@ -4,6 +4,9 @@ import { createMedia } from '@artsy/fresnel';
 import Home from './components/home/Home';
 import 'semantic-ui-css/semantic.min.css'
 import HomeMobile from './components/mobile/home/HomeMobile';
+import HomeAbout from './components/about/Home';
+import HomeMobileAbout from './components/mobile/About/HomeMobileAbout';
+import HomeDonor from './components/donor/Home';
 
 const {Media, MediaContextProvider} = createMedia({
   breakpoints: {
@@ -21,6 +24,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route index element={<HomeMobile />} />
+            <Route path='/about' element={<HomeMobileAbout />} />
           </Routes>
         </BrowserRouter>
       </Media>
@@ -28,6 +32,8 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route index element={<Home />} />
+            <Route path='/about' element={<HomeAbout />} />
+            <Route path='/donor' element={<HomeDonor />} />
           </Routes>
         </BrowserRouter>
       </Media>

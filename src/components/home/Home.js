@@ -15,7 +15,7 @@ import Footer from "../Footer"
 const Home = () => {
     return(
         <>
-        <NavBar />
+        <NavBar link_value={"Home"} />
         <WallPaper />
         <About />
         <Achievement />
