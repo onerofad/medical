@@ -33,7 +33,7 @@ const WallPaperAboutMobile = () => {
                DonorConnect, is an innovation platform design to bridges the gap between blood dation and <br/>does urgent  need. Ensuring timely access to lifesaving donations.
            </Header>
            <Grid>
-            <GridColumn textAlign="center">
+            <GridColumn textAlign="center" style={{marginTop: 60}}>
            <Button size="small" style={{
                 justifyContent: 'center',
                 alignItems: 'center',
@@ -45,7 +45,6 @@ const WallPaperAboutMobile = () => {
                 fontStyle: 'normal',
                 fontWeight: 600,
                 lineHeight: '36px',
-                margin: '60px auto',
            }}>
                 Donate
            </Button>
@@ -53,14 +52,11 @@ const WallPaperAboutMobile = () => {
                 style={{
                     justifyContent: 'center',
                     alignItems: 'center',
-                    gap: '10px',
-                    flexShrink: 0,
                     borderRadius: '15px',
                     borderWidth: '1px',
                     borderStyle: 'solid',
                     borderColor: '#D10000',
                     backgroundColor: '#F8F9FA',
-                    margin: '40px auto',
                     color: '#D10000',
                     textAlign: 'center',
                     fontFamily: 'Inter',
