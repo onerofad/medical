@@ -10,12 +10,12 @@ const HomeMobileAbout = () => {
     return(
         <>
             <NavBarMobile />
-            <WallPaperAboutMobile />
+            {/*<WallPaperAboutMobile />
             <MissionAboutMobile />
             <PartnersMobile />
             <BloodDonationAboutMobile />
             <TransparencyMobile />
-            <FooterMobile />
+            <FooterMobile />*/}
         
         </>
     )
