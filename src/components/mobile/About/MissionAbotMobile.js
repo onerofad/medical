@@ -2,7 +2,7 @@ import { Header } from "semantic-ui-react"
 
 const MissionAboutMobile = () => {
     return(
-        <div style={{margin: 0, padding: '50px 150px', background: '#F8F9FA'}}>
+        <div style={{margin: 0, padding: '50px 20px', background: '#F8F9FA'}}>
             <Header
                 style={{
                     color: '#333',

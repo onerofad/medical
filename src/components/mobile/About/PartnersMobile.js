@@ -7,7 +7,7 @@ import unicef from '../../../assets/images/unicef.png'
 import gbf from '../../../assets/images/gbf.jpg'
 const PartnersMobile = () => {
     return(
-        <div style={{margin: 0, padding: '50px 150px', background: '#fff'}}>
+        <div style={{margin: 0, padding: '50px 20px', background: '#fff'}}>
             <Header
                 style={{
                     color: '#333',
@@ -35,7 +35,7 @@ const PartnersMobile = () => {
             >
                 We collaborate with hospitals, NGOs, and corporations to ensure a seamless blood donationprocess.            
             </Header>
-            <Grid stretched columns={3}>
+            <Grid stackable stretched columns={3}>
                 <GridRow>
                     <GridColumn  verticalAlign="middle">
                         <Image size="large" src={redcross} />

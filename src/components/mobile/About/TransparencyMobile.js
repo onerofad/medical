@@ -2,7 +2,7 @@ import { Button, Grid, GridColumn, Header, HeaderSubheader, Icon } from "semanti
 
 const TransparencyMobile = () => {
     return(
-        <div style={{margin: 0, padding: '100px 150px', background: '#F7F2F3'}}>
+        <div style={{margin: 0, padding: '100px 20px', background: '#F7F2F3'}}>
             <Header
                 style={{
                     color: '#333',
