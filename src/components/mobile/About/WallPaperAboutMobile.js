@@ -35,8 +35,7 @@ const WallPaperAboutMobile = () => {
            <Grid>
             <GridColumn textAlign="center" style={{marginTop: 60}}>
            <Button size="small" style={{
-                justifyContent: 'center',
-                alignItems: 'center',
+             
                 background: '#D10000',
                 borderRadius: '15px',
                 color: '#FFF',
@@ -50,8 +49,7 @@ const WallPaperAboutMobile = () => {
            </Button>
            <Button  size="small"
                 style={{
-                    justifyContent: 'center',
-                    alignItems: 'center',
+               
                     borderRadius: '15px',
                     borderWidth: '1px',
                     borderStyle: 'solid',
