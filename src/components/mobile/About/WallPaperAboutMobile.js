@@ -33,10 +33,7 @@ const WallPaperAboutMobile = () => {
                DonorConnect, is an innovation platform design to bridges the gap between blood dation and <br/>does urgent  need. Ensuring timely access to lifesaving donations.
            </Header>
            <div style={{width: '420px', margin: '0px auto'}}>
-           <Button style={{
-                width: '190px',
-                height: '46px',
-                padding: '3px',
+           <Button size="small" style={{
                 justifyContent: 'center',
                 alignItems: 'center',
                 background: '#D10000',
@@ -51,11 +48,8 @@ const WallPaperAboutMobile = () => {
            }}>
                 Donate
            </Button>
-           <Button
+           <Button  size="small"
                 style={{
-                    width: '190px',
-                    height: '46px',
-                    padding: '3px',
                     justifyContent: 'center',
                     alignItems: 'center',
                     gap: '10px',

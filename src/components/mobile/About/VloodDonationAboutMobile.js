@@ -51,7 +51,7 @@ const BloodDonationAboutMobile = () => {
                                 fontStyle: 'normal',
                                 fontWeight: 500,
                                 lineHeight: '26px',
-                                padding: '0px 60px'
+                                padding: '0px 30px'
                             }}
                         >
                             Every 2 seconds someone needs blood
@@ -90,7 +90,7 @@ const BloodDonationAboutMobile = () => {
                                 fontStyle: 'normal',
                                 fontWeight: 500,
                                 lineHeight: '26px',
-                                padding: '0px 60px'
+                                padding: '0px 30px'
                             }}
                         >
                            Only 38% 0f the population is eligible to donate blood
@@ -129,7 +129,7 @@ const BloodDonationAboutMobile = () => {
                                 fontStyle: 'normal',
                                 fontWeight: 500,
                                 lineHeight: '26px',
-                                padding: '0px 60px'
+                                padding: '0px 30px'
                             }}
                         >
                             A single  donation can save up to 3 lives                        
