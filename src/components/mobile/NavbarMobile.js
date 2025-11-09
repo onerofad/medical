@@ -1,9 +1,12 @@
 import { Button, Container, Icon, Image, Menu, Sidebar } from "semantic-ui-react"
 import logo from '../../assets/images/logo.svg'
 import { useState } from "react"
+import { useNavigate } from "react-router"
 const NavBarMobile = () => {
 
     const [visible, setVisible] = useState(false)
+
+    const navigate = useNavigate()
 
     return(
         <div style={{margin: 0, padding: 0}}>
@@ -36,6 +39,7 @@ const NavBarMobile = () => {
                         <Icon style={{float: "right"}} color="red" onClick={() => setVisible(!visible)} link size="large" name="close" />
                     </Menu.Item>*/}
                     <Menu.Item
+                    onClick={() => navigate("/")}
                         style={{
                             color: '#D10000',
                             fontFamily: 'Inter',
@@ -49,6 +53,7 @@ const NavBarMobile = () => {
                         Home
                     </Menu.Item>
                     <Menu.Item
+                        onClick={() => navigate("/about")}
                         style={{
                             color: '#333',
                             fontFamily: 'Inter',
@@ -61,6 +66,7 @@ const NavBarMobile = () => {
                         About Us
                     </Menu.Item>
                     <Menu.Item
+                    onClick={() => navigate("/donor")}
                     style={{
                             color: '#333',
                             fontFamily: 'Inter',
