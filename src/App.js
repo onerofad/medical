@@ -24,7 +24,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route index element={<HomeMobile />} />
-            <Route path='/about' element={<HomeMobileAbout />} />
+            <Route path='/about/mobile' element={<HomeMobileAbout />} />
           </Routes>
         </BrowserRouter>
       </Media>

@@ -53,7 +53,7 @@ const NavBarMobile = () => {
                         Home
                     </Menu.Item>
                     <Menu.Item
-                        onClick={() => navigate("/about")}
+                        onClick={() => navigate("/about/mobile")}
                         style={{
                             color: '#333',
                             fontFamily: 'Inter',
