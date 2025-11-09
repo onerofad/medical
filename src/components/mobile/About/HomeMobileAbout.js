@@ -1,4 +1,5 @@
 import NavBarMobile from "../NavbarMobile"
+import FooterMobile from '../FooterMobile' 
 
 
 const HomeMobileAbout = () => {
