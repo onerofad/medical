@@ -58,12 +58,12 @@ const BloodCompatibility = () => {
                     <Segment basic style={{margin: '8px 250px'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
-                                <Header className="small_text">
+                                <Header id="big_text">
                                     Donor Blood  Type
                                 </Header>
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
-                                <Header className="small_text">
+                                <Header id="big_text">
                                     Can Donate TO
                                 </Header>
                             </GridColumn>
@@ -73,12 +73,12 @@ const BloodCompatibility = () => {
                     <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     O-
                                 </Header>
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     All blood types
                                 </Header>
                             </GridColumn>
@@ -88,12 +88,12 @@ const BloodCompatibility = () => {
                     <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     O+
                                 </Header>
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     0+, A+, B+, AB+
                                 </Header>
                             </GridColumn>
@@ -103,12 +103,12 @@ const BloodCompatibility = () => {
                       <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     A-
                                 </Header>
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     A-, A+, AB-, AB+
                                 </Header>
                             </GridColumn>
@@ -118,12 +118,12 @@ const BloodCompatibility = () => {
                     <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     A+
                                 </Header>
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     A+,  AB+
                                 </Header>
                             </GridColumn>
@@ -133,12 +133,12 @@ const BloodCompatibility = () => {
                     <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     B-
                                 </Header>
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     B-,  B+,  AB+,  AB-
                                 </Header>
                             </GridColumn>
@@ -148,12 +148,12 @@ const BloodCompatibility = () => {
                     <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     B+
                                 </Header>
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     B+,  AB+
                                 </Header>
                             </GridColumn>
@@ -163,12 +163,12 @@ const BloodCompatibility = () => {
                        <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     AB-
                                 </Header>
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     AB-,  AB+
                                 </Header>
                             </GridColumn>
@@ -178,12 +178,12 @@ const BloodCompatibility = () => {
                       <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     AB+
                                 </Header>
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
-                                <Header className="small_text">
+                                <Header id="small_text">
                                     AB+ Only
                                 </Header>
                             </GridColumn>
