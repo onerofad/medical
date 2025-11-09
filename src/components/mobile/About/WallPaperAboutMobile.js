@@ -11,7 +11,7 @@ const WallPaperAboutMobile = () => {
                 fontFamily: 'Inter',
                 fontSize: '32px',
                 fontStyle: 'normal',
-                fontWeight: 700,
+                fontWeight: 900,
                 lineHeight: 'normal',
                 paddingTop: 280
             }}
@@ -34,8 +34,13 @@ const WallPaperAboutMobile = () => {
            </Header>
            <Grid>
             <GridColumn textAlign="center" style={{marginTop: 60}}>
-           <Button size="small" style={{
-             
+           <Button style={{
+                display: 'flex',
+                width: '190px',
+                height: '46px',
+                padding: '10px',
+                justifyContent: 'center',
+                alignItems: 'center',
                 background: '#D10000',
                 borderRadius: '15px',
                 color: '#FFF',
@@ -44,10 +49,11 @@ const WallPaperAboutMobile = () => {
                 fontStyle: 'normal',
                 fontWeight: 600,
                 lineHeight: '36px',
+                margin: '60px auto',
            }}>
                 Donate
            </Button>
-           
+          
             </GridColumn>
             </Grid>
         </div>
