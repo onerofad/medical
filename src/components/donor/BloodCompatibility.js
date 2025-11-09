@@ -1,4 +1,4 @@
-import { Button, Grid, GridColumn, GridRow, Header, Segment } from "semantic-ui-react"
+import { Button, Grid, GridColumn, Header, Segment } from "semantic-ui-react"
 import '../../css/style.css'
 
 const BloodCompatibility = () => {

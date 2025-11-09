@@ -1,4 +1,4 @@
-import { Card, CardContent, Grid, GridColumn, Header, HeaderContent, HeaderSubheader, Image, Search, Segment } from "semantic-ui-react"
+import { Grid, Header, Image, Search } from "semantic-ui-react"
 import mapImage from '../../assets/images/map.png'
 
 import '../../css/style.css'

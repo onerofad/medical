@@ -1,4 +1,4 @@
-import { Grid, GridColumn, Header, Icon, List, ListContent, ListIcon, ListItem } from "semantic-ui-react"
+import { Grid, GridColumn, Header, Icon, List, ListContent, ListItem } from "semantic-ui-react"
 
 const FrequentQuestion = () => {
     return(

@@ -1,4 +1,4 @@
-import { Button, Grid, GridColumn, Header, HeaderSubheader, Icon, Segment } from "semantic-ui-react"
+import { Button, Grid, GridColumn, Header, HeaderSubheader, Icon } from "semantic-ui-react"
 
 const Transparency = () => {
     return(

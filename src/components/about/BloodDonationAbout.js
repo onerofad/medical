@@ -1,5 +1,4 @@
-import { Grid, GridColumn, Header, Image, Segment } from "semantic-ui-react"
-import fav1 from '../../assets/images/healthicons_inpatient.svg'
+import { Grid, GridColumn, Header, Segment } from "semantic-ui-react"
 
 const BloodDonationAbout = () => {
     return(

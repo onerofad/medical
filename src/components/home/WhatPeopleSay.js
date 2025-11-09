@@ -1,4 +1,4 @@
-import { Grid, GridColumn, GridRow, Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
+import { Grid, GridColumn, GridRow, Header, Image, Segment } from "semantic-ui-react"
 import people1 from '../../assets/images/people1.svg'
 import people2 from '../../assets/images/people2.svg'
 import people3 from '../../assets/images/people3.svg'

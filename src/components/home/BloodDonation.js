@@ -1,4 +1,4 @@
-import { Card, CardContent, Grid, GridColumn, Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
+import { Grid, GridColumn, Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
 import blood_img1 from '../../assets/images/blood_donate1.png'
 import blood_img2 from '../../assets/images/blood_donate2.png'
 import blood_img3 from '../../assets/images/blood_donate3.png'

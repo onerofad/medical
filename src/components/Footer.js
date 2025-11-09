@@ -1,4 +1,4 @@
-import { Grid, GridColumn, GridRow, Header, Icon, Image } from "semantic-ui-react"
+import { Grid, GridColumn, Header, Icon } from "semantic-ui-react"
 
 const Footer = () => {
     return(

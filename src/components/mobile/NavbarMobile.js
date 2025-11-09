@@ -1,4 +1,4 @@
-import { Button, Container, Grid, GridColumn, GridRow, Icon, Image, Menu, Segment, Sidebar, SidebarPushable, SidebarPusher } from "semantic-ui-react"
+import { Button, Container, Icon, Image, Menu, Sidebar } from "semantic-ui-react"
 import logo from '../../assets/images/logo.svg'
 import { useState } from "react"
 const NavBarMobile = () => {

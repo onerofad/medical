@@ -1,4 +1,4 @@
-import { Button, Grid, GridColumn, GridRow, Header, Image, Segment } from "semantic-ui-react"
+import { Grid, GridColumn, GridRow, Header, Image, Segment } from "semantic-ui-react"
 import redcross from '../../assets/images/redcross.png'
 import save from '../../assets/images/save.png'
 import transfussion from '../../assets/images/bloodtransfusion.png'

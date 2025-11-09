@@ -1,4 +1,4 @@
-import { Button, Grid, GridColumn, Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
+import { Button, Header } from "semantic-ui-react"
 import '../../css/style.css'
 
 const WallPaper = () => {

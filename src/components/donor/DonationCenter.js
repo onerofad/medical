@@ -1,4 +1,4 @@
-import { Card, CardContent, Grid, GridColumn, Header, HeaderContent, HeaderSubheader, Image, Segment } from "semantic-ui-react"
+import { Grid, GridColumn, Header, Image } from "semantic-ui-react"
 import center1 from '../../assets/images/center1.jpg'
 import center2 from '../../assets/images/center2.jpg'
 import center3 from '../../assets/images/center3.jpg'
