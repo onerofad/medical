@@ -1,4 +1,4 @@
-import { Button, Header } from "semantic-ui-react"
+import { Button, Grid, GridColumn, Header } from "semantic-ui-react"
 import '../../../css/style.css'
 
 const WallPaperAboutMobile = () => {
@@ -9,7 +9,7 @@ const WallPaperAboutMobile = () => {
             style={{
                 color: '#F8F9FA',
                 fontFamily: 'Inter',
-                fontSize: '40px',
+                fontSize: '32px',
                 fontStyle: 'normal',
                 fontWeight: 700,
                 lineHeight: 'normal',
@@ -23,7 +23,7 @@ const WallPaperAboutMobile = () => {
              style={{
                 color: '#fff',
                 fontFamily: 'Inter',
-                fontSize: '24px',
+                fontSize: '16px',
                 fontStyle: 'normal',
                 fontWeight: 500,
                 lineHeight: 'normal',
@@ -32,7 +32,8 @@ const WallPaperAboutMobile = () => {
            >
                DonorConnect, is an innovation platform design to bridges the gap between blood dation and <br/>does urgent  need. Ensuring timely access to lifesaving donations.
            </Header>
-           <div style={{width: '420px', margin: '0px auto'}}>
+           <Grid>
+            <GridColumn>
            <Button size="small" style={{
                 justifyContent: 'center',
                 alignItems: 'center',
@@ -71,7 +72,8 @@ const WallPaperAboutMobile = () => {
             >
                 Find Donor
             </Button>
-            </div>
+            </GridColumn>
+            </Grid>
         </div>
     )
 }
