@@ -47,25 +47,7 @@ const WallPaperAboutMobile = () => {
            }}>
                 Donate
            </Button>
-           <Button  size="small"
-                style={{
-               
-                    borderRadius: '15px',
-                    borderWidth: '1px',
-                    borderStyle: 'solid',
-                    borderColor: '#D10000',
-                    backgroundColor: '#F8F9FA',
-                    color: '#D10000',
-                    textAlign: 'center',
-                    fontFamily: 'Inter',
-                    fontSize: '16px',
-                    fontStyle: 'normal',
-                    fontWeight: 600,
-                    lineHeight: '36px'
-                }}
-            >
-                Find Donor
-            </Button>
+           
             </GridColumn>
             </Grid>
         </div>
