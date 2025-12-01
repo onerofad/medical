@@ -47,7 +47,7 @@ const BloodCompatibilityMobile = () => {
                 fontStyle: 'normal',
                 fontWeight: 600,
                 lineHeight: '36px',
-                margin: '40px auto',
+                margin: '40px 0px',
            }}>
                 Schedule
            </Button>       
