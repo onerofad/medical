@@ -4,9 +4,8 @@ import '../../../css/style.css'
 const BloodCompatibilityMobile = () => {
     return(
         <div style={{margin: 0, padding: '50px 0px', background: '#F8F9FA'}}>
-            <Grid>
-                <GridColumn>
-                <Header
+       
+            <Header
                 style={{
                     color: '#333',
                     textAlign: 'center',
@@ -51,8 +50,6 @@ const BloodCompatibilityMobile = () => {
            }}>
                 Schedule
            </Button>  */}     
-            </GridColumn>
-            </Grid>
             {/*<Grid>
                 <GridColumn>
                     <Segment basic style={{margin: '8px 0px'}}>
