@@ -41,7 +41,7 @@ const FindDonationMobile = () => {
         <div style={{margin: 0, padding: '0px 0px', background: '#F8F9FA'}}>
             <Grid textAlign="center" style={{}}>
                 <Search size="big" placeholder="Use Location" />
-                <Image fluid style={{marginTop: 30}} src={mapImage} />
+                <Image size="large" style={{marginTop: 30}} src={mapImage} />
             </Grid>
         </div>
         </>
