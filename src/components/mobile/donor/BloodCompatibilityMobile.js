@@ -45,8 +45,7 @@ const BloodCompatibilityMobile = () => {
                 fontSize: '18px',
                 fontStyle: 'normal',
                 fontWeight: 600,
-                lineHeight: '36px',
-                alignSelf: 'center',
+                alignItem: 'center',
                 textAlign: 'center',
                 margin: '40px auto',
            }}>
