@@ -46,6 +46,8 @@ const BloodCompatibilityMobile = () => {
                 fontStyle: 'normal',
                 fontWeight: 600,
                 lineHeight: '36px',
+                alignSelf: 'center',
+                textAlign: 'center',
                 margin: '40px auto',
            }}>
                 Schedule
