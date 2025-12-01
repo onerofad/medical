@@ -1,9 +1,9 @@
 import { Button, Grid, GridColumn, Header, Segment } from "semantic-ui-react"
-import '../../css/style.css'
+import '../../../css/style.css'
 
-const BloodCompatibility = () => {
+const BloodCompatibilityMobile = () => {
     return(
-        <div style={{margin: 0, padding: '50px 100px', background: '#F8F9FA'}}>
+        <div style={{margin: 0, padding: '50px 0px', background: '#F8F9FA'}}>
             <Grid>
                 <GridColumn textAlign="center">
                 <Header
@@ -30,7 +30,7 @@ const BloodCompatibility = () => {
                     fontStyle: 'normal',
                     fontWeight: 400,
                     lineHeight: '30px',
-                    padding: '0px 200px'
+                    padding: '0px 20px'
                 }}
             >
                 Blood compatibility refers to the careful matching of blood types between a donor and a recipient to ensure a safe and effective blood transfusion
@@ -55,7 +55,7 @@ const BloodCompatibility = () => {
             </Grid>
             <Grid>
                 <GridColumn>
-                    <Segment basic style={{margin: '8px 250px'}}>
+                    <Segment basic style={{margin: '8px 10px'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header id="big_text">
@@ -70,7 +70,7 @@ const BloodCompatibility = () => {
 
                         </Grid>
                     </Segment>
-                    <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
+                    <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header id="small_text">
@@ -85,7 +85,7 @@ const BloodCompatibility = () => {
 
                         </Grid>
                     </Segment>
-                    <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
+                    <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header id="small_text">
@@ -100,7 +100,7 @@ const BloodCompatibility = () => {
 
                         </Grid>
                     </Segment>
-                      <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
+                      <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header id="small_text">
@@ -115,7 +115,7 @@ const BloodCompatibility = () => {
 
                         </Grid>
                     </Segment>
-                    <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
+                    <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header id="small_text">
@@ -130,7 +130,7 @@ const BloodCompatibility = () => {
 
                         </Grid>
                     </Segment>
-                    <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
+                    <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header id="small_text">
@@ -145,7 +145,7 @@ const BloodCompatibility = () => {
 
                         </Grid>
                     </Segment>
-                    <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
+                    <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header id="small_text">
@@ -160,7 +160,7 @@ const BloodCompatibility = () => {
 
                         </Grid>
                     </Segment>
-                       <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
+                       <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header id="small_text">
@@ -175,7 +175,7 @@ const BloodCompatibility = () => {
 
                         </Grid>
                     </Segment>
-                      <Segment basic style={{margin: '8px 250px', backgroundColor: '#F7F2F3'}}>
+                      <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header id="small_text">
@@ -199,4 +199,4 @@ const BloodCompatibility = () => {
         </div>
     )
 }
-export default BloodCompatibility
+export default BloodCompatibilityMobile

@@ -6,6 +6,9 @@ import FindDonation from "./FindDonation"
 import Clinics from "./Clinics"
 import ScheduleCalendar from "./ScheduleCalendar"
 import UrgentRequest from "./UrgentRequest"
+import Notifications from "./Notifications"
+import TotalDonations from "./TotalDonation"
+import DurationHistory from "./DurationHistory"
 
 const HomeDonor = () => {
     return(
@@ -17,6 +20,9 @@ const HomeDonor = () => {
         <Clinics />
         <ScheduleCalendar />
         <UrgentRequest />
+        <Notifications />
+        <DurationHistory />
+        <TotalDonations />
         <Footer />
         </>
     )
