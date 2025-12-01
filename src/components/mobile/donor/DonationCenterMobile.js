@@ -91,7 +91,7 @@ const DonationCenterMobile = () => {
                     </Header>
                 </GridColumn>
             </Grid>
-            <Grid columns={3} style={{marginTop: 40}}>
+            <Grid stackable columns={3} style={{marginTop: 40}}>
                 <GridColumn>
                     <Image style={{borderRadius: 15, height: 290}} fluid src={center4} />
                     <Header 
