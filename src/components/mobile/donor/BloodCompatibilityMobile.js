@@ -55,7 +55,7 @@ const BloodCompatibilityMobile = () => {
             </Grid>
             <Grid>
                 <GridColumn>
-                    <Segment basic style={{margin: '8px 10px'}}>
+                    <Segment basic style={{margin: '8px 0px'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
@@ -80,7 +80,7 @@ const BloodCompatibilityMobile = () => {
 
                         </Grid>
                     </Segment>
-                    <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
+                    <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
@@ -105,7 +105,7 @@ const BloodCompatibilityMobile = () => {
 
                         </Grid>
                     </Segment>
-                    <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
+                    <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
@@ -130,7 +130,7 @@ const BloodCompatibilityMobile = () => {
 
                         </Grid>
                     </Segment>
-                      <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
+                      <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
@@ -155,7 +155,7 @@ const BloodCompatibilityMobile = () => {
 
                         </Grid>
                     </Segment>
-                    <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
+                    <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
@@ -180,7 +180,7 @@ const BloodCompatibilityMobile = () => {
 
                         </Grid>
                     </Segment>
-                    <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
+                    <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
@@ -205,7 +205,7 @@ const BloodCompatibilityMobile = () => {
 
                         </Grid>
                     </Segment>
-                    <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
+                    <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
@@ -230,7 +230,7 @@ const BloodCompatibilityMobile = () => {
 
                         </Grid>
                     </Segment>
-                       <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
+                       <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
@@ -255,7 +255,7 @@ const BloodCompatibilityMobile = () => {
 
                         </Grid>
                     </Segment>
-                      <Segment basic style={{margin: '8px 10px', backgroundColor: '#F7F2F3'}}>
+                      <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
