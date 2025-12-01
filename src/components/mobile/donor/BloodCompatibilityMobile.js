@@ -21,7 +21,7 @@ const BloodCompatibilityMobile = () => {
             >
                 Blood Compatibility
             </Header> 
-            <Header
+           {/* <Header
                 style={{
                     color: '#333',
                     textAlign: 'center',
@@ -35,7 +35,7 @@ const BloodCompatibilityMobile = () => {
             >
                 Blood compatibility refers to the careful matching of blood types between a donor and a recipient to ensure a safe and effective blood transfusion
             </Header>   
-            {/*<Button style={{
+            <Button style={{
                 width: '190px',
                 height: '46px',
                 padding: '3px',
