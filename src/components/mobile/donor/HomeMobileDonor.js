@@ -11,7 +11,6 @@ const HomeMobileDonor = () => {
         <BloodCompatibilityMobile />
         <DonationCenterMobile />
         <FindDonationMobile />
-        <FooterMobile />
         </>
 
     )
