@@ -46,11 +46,11 @@ const BloodCompatibilityMobile = () => {
                 fontStyle: 'normal',
                 fontWeight: 600,
                 lineHeight: '36px',
-                margin: '40px 0px',
+                margin: '40px auto',
            }}>
                 Schedule
            </Button>       
-            <Grid>
+            {/*<Grid>
                 <GridColumn>
                     <Segment basic style={{margin: '8px 0px'}}>
                         <Grid relaxed>
@@ -280,7 +280,7 @@ const BloodCompatibilityMobile = () => {
 
                     
                 </GridColumn>
-            </Grid>
+            </Grid>*/}
            
 
         </div>
