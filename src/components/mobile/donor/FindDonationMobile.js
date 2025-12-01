@@ -1,7 +1,7 @@
 import { Grid, Header, Image, Search } from "semantic-ui-react"
-import mapImage from '../../assets/images/map.png'
+import mapImage from '../../../assets/images/map.png'
 
-import '../../css/style.css'
+import '../../../css/style.css'
 
 
 const FindDonationMobile = () => {
