@@ -5,7 +5,7 @@ const BloodCompatibilityMobile = () => {
     return(
         <div style={{margin: 0, padding: '50px 0px', background: '#F8F9FA'}}>
             <Grid>
-                <GridColumn textAlign="center">
+                <GridColumn>
                 <Header
                 style={{
                     color: '#333',
