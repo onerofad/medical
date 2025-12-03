@@ -36,7 +36,6 @@ const DonationCenterMobile = () => {
                     fontStyle: 'normal',
                     fontWeight: 400,
                     lineHeight: '30px',
-                    padding: '0px 20px'
                 }}
             >
                 Explore some of the donation centers through photos right on the app! Find the nearest location, check out the facilities, and schedule your lifesaving appointment with ease.

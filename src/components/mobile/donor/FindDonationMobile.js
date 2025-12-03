@@ -31,7 +31,6 @@ const FindDonationMobile = () => {
                     fontStyle: 'normal',
                     fontWeight: 400,
                     lineHeight: '30px',
-                    padding: '0px auto'
                 }}
             >
                 Locate the nearest blood donation center with just a few clicks. Our easy-to-use map and search tool help you schedule an appointment and join the lifesaving mission today.
