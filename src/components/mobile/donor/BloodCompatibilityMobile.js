@@ -77,16 +77,16 @@ const BloodCompatibilityMobile = () => {
                     </GridColumn>
                     </Grid>
             </Segment>
-                    {/*<Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
-                        <Grid relaxed>
-                            <GridColumn width={8}>
-                                <Header style={{
-                                    fontSize: 12,
-                                    fontStyle: 'normal',
-                                    fontWeight: 400,
-                                    fontFamily: 'Inter'
-                                }}>
-                                    O-
+            <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
+                <Grid columns={2}>
+                    <GridColumn>
+                        <Header style={{
+                            fontSize: 12,
+                            fontStyle: 'normal',
+                            fontWeight: 400,
+                            fontFamily: 'Inter'
+                        }}>
+                            O-
                                 </Header>
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
@@ -103,8 +103,8 @@ const BloodCompatibilityMobile = () => {
                         </Grid>
                     </Segment>
                     <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
-                        <Grid relaxed>
-                            <GridColumn width={8}>
+                        <Grid columns={2}>
+                            <GridColumn>
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -114,7 +114,7 @@ const BloodCompatibilityMobile = () => {
                                     O+
                                 </Header>
                             </GridColumn>
-                            <GridColumn width={8} textAlign="right">
+                            <GridColumn textAlign="right">
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -128,8 +128,8 @@ const BloodCompatibilityMobile = () => {
                         </Grid>
                     </Segment>
                       <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
-                        <Grid relaxed>
-                            <GridColumn width={8}>
+                        <Grid columns={2}>
+                            <GridColumn>
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -139,7 +139,7 @@ const BloodCompatibilityMobile = () => {
                                     A-
                                 </Header>
                             </GridColumn>
-                            <GridColumn width={8} textAlign="right">
+                            <GridColumn textAlign="right">
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -153,8 +153,8 @@ const BloodCompatibilityMobile = () => {
                         </Grid>
                     </Segment>
                     <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
-                        <Grid relaxed>
-                            <GridColumn width={8}>
+                        <Grid columns={2}>
+                            <GridColumn>
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -164,7 +164,7 @@ const BloodCompatibilityMobile = () => {
                                     A+
                                 </Header>
                             </GridColumn>
-                            <GridColumn width={8} textAlign="right">
+                            <GridColumn textAlign="right">
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -178,8 +178,8 @@ const BloodCompatibilityMobile = () => {
                         </Grid>
                     </Segment>
                     <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
-                        <Grid relaxed>
-                            <GridColumn width={8}>
+                        <Grid columns={2}>
+                            <GridColumn>
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -189,7 +189,7 @@ const BloodCompatibilityMobile = () => {
                                     B-
                                 </Header>
                             </GridColumn>
-                            <GridColumn width={8} textAlign="right">
+                            <GridColumn textAlign="right">
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -203,8 +203,8 @@ const BloodCompatibilityMobile = () => {
                         </Grid>
                     </Segment>
                     <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
-                        <Grid relaxed>
-                            <GridColumn width={8}>
+                        <Grid columns={2}>
+                            <GridColumn>
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -214,7 +214,7 @@ const BloodCompatibilityMobile = () => {
                                     B+
                                 </Header>
                             </GridColumn>
-                            <GridColumn width={8} textAlign="right">
+                            <GridColumn textAlign="right">
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -228,8 +228,8 @@ const BloodCompatibilityMobile = () => {
                         </Grid>
                     </Segment>
                        <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
-                        <Grid relaxed>
-                            <GridColumn width={8}>
+                        <Grid columns={2}>
+                            <GridColumn>
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -239,7 +239,7 @@ const BloodCompatibilityMobile = () => {
                                     AB-
                                 </Header>
                             </GridColumn>
-                            <GridColumn width={8} textAlign="right">
+                            <GridColumn textAlign="right">
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -253,8 +253,8 @@ const BloodCompatibilityMobile = () => {
                         </Grid>
                     </Segment>
                       <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
-                        <Grid relaxed>
-                            <GridColumn width={8}>
+                        <Grid columns={2}>
+                            <GridColumn>
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -264,7 +264,7 @@ const BloodCompatibilityMobile = () => {
                                     AB+
                                 </Header>
                             </GridColumn>
-                            <GridColumn width={8} textAlign="right">
+                            <GridColumn textAlign="right">
                                 <Header style={{
                                     fontSize: 12,
                                     fontStyle: 'normal',
@@ -276,7 +276,7 @@ const BloodCompatibilityMobile = () => {
                             </GridColumn>
 
                         </Grid>
-                    </Segment>*/}
+                    </Segment>
         </div>
     )
 }
