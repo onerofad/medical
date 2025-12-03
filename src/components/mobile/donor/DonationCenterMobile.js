@@ -59,8 +59,8 @@ const DonationCenterMobile = () => {
                         Alheri Hospital
                     </Header>
                 </p>
-                {/*<GridColumn mobile={16}>
-                    <Image centered style={{borderRadius: 15, height: 290}} fluid src={center2} />
+                <p>
+                    <Image centered size="medium" style={{borderRadius: 15, height: 290}} src={center2} />
                     <Header
                         style={{
                             color: '#333',
@@ -74,9 +74,9 @@ const DonationCenterMobile = () => {
                     >
                         Valley Oak Hospital
                     </Header>
-                </GridColumn>
-                <GridColumn mobile={16}>
-                    <Image centered style={{borderRadius: 15, height: 290}} fluid src={center3} />
+                </p>
+                <p>
+                    <Image centered size="medium" style={{borderRadius: 15, height: 290}} src={center3} />
                     <Header
                          style={{
                             color: '#333',
@@ -90,9 +90,9 @@ const DonationCenterMobile = () => {
                     >
                          Solid Rock Hospital
                     </Header>
-                </GridColumn>
-                <GridColumn mobile={16}>
-                    <Image centered style={{borderRadius: 15, height: 290}} fluid src={center4} />
+                </p>
+                <p>
+                    <Image centered size="medium" style={{borderRadius: 15, height: 290}} src={center4} />
                     <Header 
                         style={{
                             color: '#333',
@@ -106,9 +106,9 @@ const DonationCenterMobile = () => {
                     >
                         Mayo Clinic
                     </Header>
-                </GridColumn>
-                <GridColumn mobile={16}>
-                    <Image centered style={{borderRadius: 15, height: 290}} fluid src={center5} />
+                </p>
+                <p>
+                    <Image centered size="medium" style={{borderRadius: 15, height: 290}} src={center5} />
                     <Header
                         style={{
                             color: '#333',
@@ -122,9 +122,9 @@ const DonationCenterMobile = () => {
                     >
                         Free Hand  Clinic
                     </Header>
-                </GridColumn>
-                <GridColumn mobile={16}>
-                    <Image centered style={{borderRadius: 15, height: 290}} fluid src={center6} />
+                </p>
+                <p>
+                    <Image centered size="medium" style={{borderRadius: 15, height: 290}} src={center6} />
                     <Header
                          style={{
                             color: '#333',
@@ -138,7 +138,7 @@ const DonationCenterMobile = () => {
                     >
                          Gifted Hand  Clinic
                     </Header>
-                </GridColumn>*/}
+                </p>
             </div>
         </div>
     )
