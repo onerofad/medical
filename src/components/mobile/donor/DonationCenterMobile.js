@@ -42,9 +42,9 @@ const DonationCenterMobile = () => {
             >
                 Explore some of the donation centers through photos right on the app! Find the nearest location, check out the facilities, and schedule your lifesaving appointment with ease.
             </Header>
-           {/* <Grid style={{marginTop: 40}}>
-                <GridColumn mobile={16}>
-                    <Image centered style={{borderRadius: 15, height: 290}} fluid src={center1} />
+           <div style={{marginTop: 40}}>
+                <p>
+                    <Image centered style={{borderRadius: 15, height: 290}}  src={center1} />
                     <Header 
                         style={{
                             color: '#333',
@@ -58,8 +58,8 @@ const DonationCenterMobile = () => {
                     >
                         Alheri Hospital
                     </Header>
-                </GridColumn>
-                <GridColumn mobile={16}>
+                </p>
+                {/*<GridColumn mobile={16}>
                     <Image centered style={{borderRadius: 15, height: 290}} fluid src={center2} />
                     <Header
                         style={{
@@ -138,8 +138,8 @@ const DonationCenterMobile = () => {
                     >
                          Gifted Hand  Clinic
                     </Header>
-                </GridColumn>
-            </Grid>*/}
+                </GridColumn>*/}
+            </div>
         </div>
     )
 }
