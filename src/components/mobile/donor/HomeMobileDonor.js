@@ -2,6 +2,7 @@ import NavBarMobile from "../NavbarMobile"
 import BloodCompatibilityMobile from './BloodCompatibilityMobile'
 import DonationCenterMobile from './DonationCenterMobile'
 import FindDonationMobile from "./FindDonationMobile"
+import FooterMobile from '../FooterMobile'
 
 const HomeMobileDonor = () => {
     return(
@@ -10,6 +11,7 @@ const HomeMobileDonor = () => {
         <BloodCompatibilityMobile />
         {/*<DonationCenterMobile />
         <FindDonationMobile />*/}
+        <FooterMobile />
     
         </>
 
