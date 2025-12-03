@@ -41,7 +41,7 @@ const DonationCenterMobile = () => {
             >
                 Explore some of the donation centers through photos right on the app! Find the nearest location, check out the facilities, and schedule your lifesaving appointment with ease.
             </Header>
-            <Grid stackable columns={6} style={{marginTop: 40}}>
+            <Grid columns={6} style={{marginTop: 40}}>
                 <GridColumn>
                     <Image style={{borderRadius: 15, height: 290}} fluid src={center1} />
                     <Header 
