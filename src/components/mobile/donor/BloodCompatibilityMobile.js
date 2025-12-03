@@ -35,18 +35,19 @@ const BloodCompatibilityMobile = () => {
                 Blood compatibility refers to the careful matching of blood types between a donor and a recipient to ensure a safe and effective blood transfusion
             </Header>   
             <Button style={{
+                display: 'flex',
                 width: '190px',
                 height: '46px',
-                padding: '3px',
+                padding: '10px',
                 background: '#D10000',
+                justifyContent: 'center',
+                alignItems: 'center',
                 borderRadius: '15px',
                 color: '#FFF',
                 fontFamily: 'Inter',
                 fontSize: '18px',
                 fontStyle: 'normal',
                 fontWeight: 600,
-                alignItem: 'center',
-                textAlign: 'center',
                 margin: '40px auto',
            }}>
                 Schedule
