@@ -7,7 +7,7 @@ import '../../../css/style.css'
 const FindDonationMobile = () => {
     return(
         <div style={{margin: 0, padding: '50px 0px', background: '#F8F9FA'}}>
-                <Header
+            <Header
                  style={{
                     color: '#333',
                     textAlign: 'center',
@@ -19,7 +19,7 @@ const FindDonationMobile = () => {
                     fontWeight: 700,
                     lineHeight: 'normal'
                 }}
-        >
+            >
                  Find Donation center
             </Header>
             <Header
@@ -31,16 +31,17 @@ const FindDonationMobile = () => {
                     fontStyle: 'normal',
                     fontWeight: 400,
                     lineHeight: '30px',
+                    padding: '0px 20px'
                 }}
             >
                 Locate the nearest blood donation center with just a few clicks. Our easy-to-use map and search tool help you schedule an appointment and join the lifesaving mission today.
             </Header>
-            <Grid columns={1} style={{margin: 0, padding: '0px 0px', background: '#F8F9FA'}}>
-                <GridColumn textAlign="center">
+            <div style={{margin: 0, padding: '0px 0px', background: '#F8F9FA'}}>
+                <p textAlign="center">
                     <Search size="big" placeholder="Use Location" />
-                    <Image fluid style={{marginTop: 30}} src={mapImage} />
-                </GridColumn>
-            </Grid>
+                    <Image size="medium" centered style={{marginTop: 30}} src={mapImage} />
+                </p>
+            </div>
         </div>     
     )
 }
