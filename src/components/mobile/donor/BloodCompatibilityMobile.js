@@ -53,32 +53,31 @@ const BloodCompatibilityMobile = () => {
            }}>
                 Schedule
            </Button>       
-           {/*<Segment basic style={{margin: '8px 0px'}}>
-                        <Grid relaxed>
-                            <GridColumn width={8}>
-                                <Header style={{
-                                    fontSize: 14,
-                                    fontStyle: 'bold',
-                                    fontWeight: 700,
-                                    fontFamily: 'Inter'
-                                }}>
-                                    Donor Blood  Type
-                                </Header>
-                            </GridColumn>
-                            <GridColumn width={8} textAlign="right">
-                                <Header style={{
-                                    fontSize: 14,
-                                    fontStyle: 'bold',
-                                    fontWeight: 700,
-                                    fontFamily: 'Inter'
-                                }}>
-                                    Can Donate TO
-                                </Header>
-                            </GridColumn>
-
-                        </Grid>
-                    </Segment>
-                    <Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
+           <Segment basic style={{margin: '8px 0px'}}>
+                <Grid relaxed>
+                    <GridColumn width={8}>
+                        <Header style={{
+                            fontSize: 14,
+                            fontStyle: 'bold',
+                            fontWeight: 700,
+                            fontFamily: 'Inter'
+                        }}>
+                            Donor Blood  Type
+                        </Header>
+                    </GridColumn>
+                    <GridColumn width={8} textAlign="right">
+                        <Header style={{
+                            fontSize: 14,
+                            fontStyle: 'bold',
+                            fontWeight: 700,
+                            fontFamily: 'Inter'
+                        }}>
+                                Can Donate TO
+                        </Header>
+                    </GridColumn>
+                    </Grid>
+            </Segment>
+                    {/*<Segment basic style={{margin: '8px 0px', backgroundColor: '#F7F2F3'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
