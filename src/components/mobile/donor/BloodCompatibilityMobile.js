@@ -3,7 +3,7 @@ import '../../../css/style.css'
 
 const BloodCompatibilityMobile = () => {
     return(
-        <div style={{margin: 0, padding: '50px 0px', background: '#F8F9FA'}}>
+        <div style={{margin: 0, padding: 0, background: '#F8F9FA'}}>
 
             <Header
                 style={{
@@ -52,7 +52,7 @@ const BloodCompatibilityMobile = () => {
            }}>
                 Schedule
            </Button>       
-                    <Segment basic style={{margin: '8px 0px'}}>
+           <Segment basic style={{margin: '8px 0px'}}>
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
