@@ -54,8 +54,8 @@ const BloodCompatibilityMobile = () => {
                 Schedule
            </Button>       
            <Segment basic style={{margin: '8px 0px'}}>
-                <Grid relaxed>
-                    <GridColumn width={8}>
+                <Grid columns={2}>
+                    <GridColumn>
                         <Header style={{
                             fontSize: 14,
                             fontStyle: 'bold',
@@ -65,7 +65,7 @@ const BloodCompatibilityMobile = () => {
                             Donor Blood  Type
                         </Header>
                     </GridColumn>
-                    <GridColumn width={8} textAlign="right">
+                    <GridColumn>
                         <Header style={{
                             fontSize: 14,
                             fontStyle: 'bold',
