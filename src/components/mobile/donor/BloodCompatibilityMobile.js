@@ -66,13 +66,13 @@ const BloodCompatibilityMobile = () => {
                         </Header>
                     </GridColumn>
                     <GridColumn>
-                        <Header style={{
+                        <Header textAlign="right" style={{
                             fontSize: 14,
                             fontStyle: 'bold',
                             fontWeight: 700,
                             fontFamily: 'Inter'
                         }}>
-                                Can Donate TO
+                                Can Donate To
                         </Header>
                     </GridColumn>
                     </Grid>
