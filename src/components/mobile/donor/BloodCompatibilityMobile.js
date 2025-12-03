@@ -64,7 +64,7 @@ const BloodCompatibilityMobile = () => {
                                     Donor Blood  Type
                                 </Header>
                             </GridColumn>
-                            <GridColumn width={8}>
+                            <GridColumn width={8} textAlign="right">
                                 <Header style={{
                                     fontWeight: 16,
                                     fontStyle: 'bold',
