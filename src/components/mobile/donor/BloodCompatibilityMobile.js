@@ -56,7 +56,7 @@ const BloodCompatibilityMobile = () => {
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
-                                    fontWeight: 16,
+                                    fontSize: 14,
                                     fontStyle: 'bold',
                                     fontWeight: 700,
                                     fontFamily: 'Inter'
@@ -66,7 +66,7 @@ const BloodCompatibilityMobile = () => {
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
                                 <Header style={{
-                                    fontWeight: 16,
+                                    fontSize: 14,
                                     fontStyle: 'bold',
                                     fontWeight: 700,
                                     fontFamily: 'Inter'
@@ -81,7 +81,7 @@ const BloodCompatibilityMobile = () => {
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -91,7 +91,7 @@ const BloodCompatibilityMobile = () => {
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -106,7 +106,7 @@ const BloodCompatibilityMobile = () => {
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -116,7 +116,7 @@ const BloodCompatibilityMobile = () => {
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -131,7 +131,7 @@ const BloodCompatibilityMobile = () => {
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -141,7 +141,7 @@ const BloodCompatibilityMobile = () => {
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -156,7 +156,7 @@ const BloodCompatibilityMobile = () => {
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -166,7 +166,7 @@ const BloodCompatibilityMobile = () => {
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -181,7 +181,7 @@ const BloodCompatibilityMobile = () => {
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -191,7 +191,7 @@ const BloodCompatibilityMobile = () => {
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -206,7 +206,7 @@ const BloodCompatibilityMobile = () => {
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -216,7 +216,7 @@ const BloodCompatibilityMobile = () => {
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -231,7 +231,7 @@ const BloodCompatibilityMobile = () => {
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -241,7 +241,7 @@ const BloodCompatibilityMobile = () => {
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -256,7 +256,7 @@ const BloodCompatibilityMobile = () => {
                         <Grid relaxed>
                             <GridColumn width={8}>
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
@@ -266,7 +266,7 @@ const BloodCompatibilityMobile = () => {
                             </GridColumn>
                             <GridColumn width={8} textAlign="right">
                                 <Header style={{
-                                    fontWeight: 12,
+                                    fontSize: 12,
                                     fontStyle: 'normal',
                                     fontWeight: 400,
                                     fontFamily: 'Inter'
