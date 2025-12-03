@@ -15,7 +15,8 @@ const BloodCompatibilityMobile = () => {
                     fontSize: '24px',
                     fontStyle: 'normal',
                     fontWeight: 700,
-                    lineHeight: 'normal'
+                    lineHeight: 'normal',
+                    marginTop: 40
                 }}
             >
                 Blood Compatibility
