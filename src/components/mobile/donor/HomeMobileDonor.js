@@ -9,8 +9,8 @@ const HomeMobileDonor = () => {
         <>
         <NavBarMobile />
         <BloodCompatibilityMobile />
-        {/*<DonationCenterMobile />
-        <FindDonationMobile />*/}
+        <DonationCenterMobile />
+        <FindDonationMobile />
         <FooterMobile />
     
         </>
