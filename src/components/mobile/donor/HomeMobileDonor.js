@@ -10,7 +10,6 @@ const HomeMobileDonor = () => {
         <NavBarMobile />
         <BloodCompatibilityMobile />
         <DonationCenterMobile />
-        <FindDonationMobile />
         <FooterMobile />
     
         </>

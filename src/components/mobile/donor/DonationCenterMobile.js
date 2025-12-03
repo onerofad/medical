@@ -40,7 +40,7 @@ const DonationCenterMobile = () => {
             >
                 Explore some of the donation centers through photos right on the app! Find the nearest location, check out the facilities, and schedule your lifesaving appointment with ease.
             </Header>
-            <Grid style={{marginTop: 40}}>
+           {/* <Grid style={{marginTop: 40}}>
                 <GridColumn mobile={16}>
                     <Image centered style={{borderRadius: 15, height: 290}} fluid src={center1} />
                     <Header 
@@ -137,7 +137,7 @@ const DonationCenterMobile = () => {
                          Gifted Hand  Clinic
                     </Header>
                 </GridColumn>
-            </Grid>
+            </Grid>*/}
         </div>
     )
 }
