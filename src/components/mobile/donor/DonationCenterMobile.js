@@ -44,7 +44,7 @@ const DonationCenterMobile = () => {
             </Header>
            <div style={{marginTop: 40}}>
                 <p>
-                    <Image centered style={{borderRadius: 15, height: 290}}  src={center1} />
+                    <Image centered style={{borderRadius: 15, height: 290, margin: '0px 10px'}}  src={center1} />
                     <Header 
                         style={{
                             color: '#333',
