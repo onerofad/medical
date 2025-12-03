@@ -40,8 +40,8 @@ const DonationCenterMobile = () => {
             >
                 Explore some of the donation centers through photos right on the app! Find the nearest location, check out the facilities, and schedule your lifesaving appointment with ease.
             </Header>
-            <Grid columns={6} style={{marginTop: 40}}>
-                <GridColumn>
+            <Grid style={{marginTop: 40}}>
+                <GridColumn mobile={16}>
                     <Image style={{borderRadius: 15, height: 290}} fluid src={center1} />
                     <Header 
                         style={{
@@ -57,7 +57,7 @@ const DonationCenterMobile = () => {
                         Alheri Hospital
                     </Header>
                 </GridColumn>
-                <GridColumn>
+                <GridColumn mobile={16}>
                     <Image style={{borderRadius: 15, height: 290}} fluid src={center2} />
                     <Header
                         style={{
@@ -73,7 +73,7 @@ const DonationCenterMobile = () => {
                         Valley Oak Hospital
                     </Header>
                 </GridColumn>
-                <GridColumn>
+                <GridColumn mobile={16}>
                     <Image style={{borderRadius: 15, height: 290}} fluid src={center3} />
                     <Header
                          style={{
@@ -89,7 +89,7 @@ const DonationCenterMobile = () => {
                          Solid Rock Hospital
                     </Header>
                 </GridColumn>
-                <GridColumn>
+                <GridColumn mobile={16}>
                     <Image style={{borderRadius: 15, height: 290}} fluid src={center4} />
                     <Header 
                         style={{
@@ -105,7 +105,7 @@ const DonationCenterMobile = () => {
                         Mayo Clinic
                     </Header>
                 </GridColumn>
-                <GridColumn>
+                <GridColumn mobile={16}>
                     <Image style={{borderRadius: 15, height: 290}} fluid src={center5} />
                     <Header
                         style={{
@@ -121,7 +121,7 @@ const DonationCenterMobile = () => {
                         Free Hand  Clinic
                     </Header>
                 </GridColumn>
-                <GridColumn>
+                <GridColumn mobile={16}>
                     <Image style={{borderRadius: 15, height: 290}} fluid src={center6} />
                     <Header
                          style={{
