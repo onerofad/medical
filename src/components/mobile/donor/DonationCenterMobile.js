@@ -42,7 +42,7 @@ const DonationCenterMobile = () => {
             </Header>
             <Grid style={{marginTop: 40}}>
                 <GridColumn mobile={16}>
-                    <Image style={{borderRadius: 15, height: 290}} fluid src={center1} />
+                    <Image centered style={{borderRadius: 15, height: 290}} fluid src={center1} />
                     <Header 
                         style={{
                             color: '#333',
@@ -58,7 +58,7 @@ const DonationCenterMobile = () => {
                     </Header>
                 </GridColumn>
                 <GridColumn mobile={16}>
-                    <Image style={{borderRadius: 15, height: 290}} fluid src={center2} />
+                    <Image centered style={{borderRadius: 15, height: 290}} fluid src={center2} />
                     <Header
                         style={{
                             color: '#333',
@@ -74,7 +74,7 @@ const DonationCenterMobile = () => {
                     </Header>
                 </GridColumn>
                 <GridColumn mobile={16}>
-                    <Image style={{borderRadius: 15, height: 290}} fluid src={center3} />
+                    <Image centered style={{borderRadius: 15, height: 290}} fluid src={center3} />
                     <Header
                          style={{
                             color: '#333',
@@ -90,7 +90,7 @@ const DonationCenterMobile = () => {
                     </Header>
                 </GridColumn>
                 <GridColumn mobile={16}>
-                    <Image style={{borderRadius: 15, height: 290}} fluid src={center4} />
+                    <Image centered style={{borderRadius: 15, height: 290}} fluid src={center4} />
                     <Header 
                         style={{
                             color: '#333',
@@ -106,7 +106,7 @@ const DonationCenterMobile = () => {
                     </Header>
                 </GridColumn>
                 <GridColumn mobile={16}>
-                    <Image style={{borderRadius: 15, height: 290}} fluid src={center5} />
+                    <Image centered style={{borderRadius: 15, height: 290}} fluid src={center5} />
                     <Header
                         style={{
                             color: '#333',
@@ -122,7 +122,7 @@ const DonationCenterMobile = () => {
                     </Header>
                 </GridColumn>
                 <GridColumn mobile={16}>
-                    <Image style={{borderRadius: 15, height: 290}} fluid src={center6} />
+                    <Image centered style={{borderRadius: 15, height: 290}} fluid src={center6} />
                     <Header
                          style={{
                             color: '#333',
