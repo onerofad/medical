@@ -38,7 +38,7 @@ const FindDonationMobile = () => {
             </Header>
             <div style={{margin: 0, padding: '0px 0px', background: '#F8F9FA'}}>
                 <p textAlign="center">
-                    <Search size="big" placeholder="Use Location" />
+                    <Search size="big" placeholder="Use Location" style={{margin: '20px auto'}} />
                     <Image size="medium" centered style={{marginTop: 30}} src={mapImage} />
                 </p>
             </div>
