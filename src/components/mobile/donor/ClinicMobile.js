@@ -1,9 +1,9 @@
 import { Divider, Grid, GridColumn, Header, Icon } from "semantic-ui-react"
-import '../../css/style.css'
+import '../../../css/style.css'
 
 const Clinics = () => {
     return(
-        <div style={{margin: 0, padding: '50px 100px', background: '#FFF'}}>
+        <div style={{margin: 0, padding: '50px 0px', background: '#FFF'}}>
             <Header id="big_text"  content="Gifted Hand Clinic" />
             <Divider style={{backgroundColor: '#D10000'}} />
             <Grid>
