@@ -5,6 +5,7 @@ import FindDonationMobile from "./FindDonationMobile"
 import FooterMobile from '../FooterMobile'
 import ClinicMobile from "./ClinicMobile"
 import ScheduleCalendarMobile from "./ScheduleCalendarMobile"
+import UrgentRequestMobile from "./UrgentRequestMobile"
 
 const HomeMobileDonor = () => {
     return(
@@ -15,6 +16,7 @@ const HomeMobileDonor = () => {
         <FindDonationMobile />
         <ClinicMobile />
         <ScheduleCalendarMobile />
+        <UrgentRequestMobile />
         <FooterMobile />
         </>
 
