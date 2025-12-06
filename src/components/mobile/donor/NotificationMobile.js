@@ -22,9 +22,12 @@ const NotificationMobile = () => {
             <p>
                 <Grid>
                 <GridRow>
-                    <Header>
-                        Today
-                    </Header>
+                    <GridColumn>
+                        <Header>
+                            Today
+                        </Header>
+                    </GridColumn>
+               
                 </GridRow>
                 <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3'}} basic>
                     <GridColumn width={1} verticalAlign="middle">
@@ -59,9 +62,12 @@ const NotificationMobile = () => {
 
 
                  <GridRow>
-                    <Header color="red">
-                        Last Week
-                    </Header>
+                    <GridColumn>
+                        <Header color="red">
+                          Last Week
+                        </Header>
+                    </GridColumn>
+                  
                 </GridRow>
                 <GridRow raised as={Segment} style={{borderRadius: 15, backgroundColor: '#FFF'}} basic>
                     <GridColumn width={1} verticalAlign="middle">
