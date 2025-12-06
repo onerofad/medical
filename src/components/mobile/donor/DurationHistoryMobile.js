@@ -21,7 +21,7 @@ const DurationHistoryMobile = () => {
             <p>
             <Grid stackable columns={3}>
                 <GridColumn style={{}}>
-                    <Segment raised style={{height: 320, backgroundColor: '#fff', borderRadius: 15, padding: 40, marginTop: 40}}>
+                    <Segment raised style={{height: 320, backgroundColor: '#fff', borderRadius: 15, padding: 20, marginTop: 40}}>
                         <Grid>
                             <GridColumn>
                                 <Segment style={{backgroundColor: '#D10000', width: '90%', borderRadius: 15}}>
@@ -77,7 +77,7 @@ const DurationHistoryMobile = () => {
                 </GridColumn>
                 
                  <GridColumn style={{}}>
-                    <Segment raised style={{height: 320, backgroundColor: '#F7F2F3', borderRadius: 15, padding: 40, marginTop: 40}}>
+                    <Segment raised style={{height: 320, backgroundColor: '#F7F2F3', borderRadius: 15, padding: 20, marginTop: 40}}>
                         <Grid>
                             <GridColumn>
                                 <Segment style={{borderWidth: '2px', borderStyle: 'solid', borderColor: '#D10000', backgroundColor: '#FFFFFF', width: '90%', borderRadius: 15}}>
@@ -118,7 +118,7 @@ const DurationHistoryMobile = () => {
 
 
                  <GridColumn style={{}}>
-                    <Segment raised style={{height: 320, backgroundColor: '#fff', borderRadius: 15, padding: 40, marginTop: 40}}>
+                    <Segment raised style={{height: 320, backgroundColor: '#fff', borderRadius: 15, padding: 20, marginTop: 40}}>
                         <Grid>
                             <GridColumn>
                                 <Segment style={{backgroundColor: '#D10000', width: '90%', borderRadius: 15}}>
