@@ -34,7 +34,7 @@ const TotalDonations = () => {
                     <GridColumn width={2}><p id="big_text" style={{color: 'red' , fontWeight: 'bold'}}>Completed</p></GridColumn>
                 </GridRow> 
                 <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3', padding: '20px 40px'}} basic>
-                    <GridColumn width={6}><p id="small_text2">Jan 13 2024</p></GridColumn>
+                    <GridColumn width={6}><p id="small_text2">Gifted hand hospital Lagos</p></GridColumn>
                     <GridColumn width={6}><p id="small_text2">Gifted hand hospital Lagos </p></GridColumn>
                     <GridColumn width={2}><p id="small_text2">250ml</p></GridColumn>
                     <GridColumn width={2}><p id="big_text" style={{color: '#000', fontWeight: 'bold'}}>Cancelled</p></GridColumn>

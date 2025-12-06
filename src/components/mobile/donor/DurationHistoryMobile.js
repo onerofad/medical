@@ -50,7 +50,7 @@ const DurationHistoryMobile = () => {
                                 }}>
                                     Milestone
                                 </p>
-                                <Grid columns={4}>
+                                <Grid textAlign="center" columns={4}>
                                     <GridColumn>
                                         <Segment size="mini" style={{width: 20, height: 20, backgroundColor: '#D10000'}} circular>
                                             <Header as="h6" inverted color="white">5</Header>
