@@ -44,6 +44,7 @@ const ScheduleCalendarMobile = () => {
             </p>
             <p>
             <Segment size="small" basic style={{backgroundColor: '#FFF', borderRadius: 15}}>
+                <Grid stackable>
                     <GridColumn>
                         <Segment basic>
                         <Header  id="big_text">Select Date</Header>
@@ -189,7 +190,8 @@ const ScheduleCalendarMobile = () => {
 
                                     </Grid>
                         </Segment>
-                    </GridColumn>            
+                    </GridColumn>    
+                    </Grid>        
             </Segment>
             </p>
         </div>
