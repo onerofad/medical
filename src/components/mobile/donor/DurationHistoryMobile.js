@@ -53,20 +53,20 @@ const DurationHistoryMobile = () => {
                                 <Grid columns={4}>
                                     <GridColumn>
                                         <Segment size="small" style={{width: 20, height: 20, backgroundColor: '#D10000'}} circular>
-                                            <Header inverted color="white">5</Header>
+                                            <Header as="h5" inverted color="white">5</Header>
                                         </Segment>
                                     </GridColumn>
                                     <GridColumn>
                                         <Segment size="small" style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
-                                            <Header color="black">10</Header>
+                                            <Header as="h5" color="black">10</Header>
                                         </Segment>                                    </GridColumn>
                                     <GridColumn>
                                         <Segment size="small" style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
-                                            <Header color="black">15</Header>
+                                            <Header as="h5" color="black">15</Header>
                                         </Segment>                                    </GridColumn>
                                     <GridColumn>
                                         <Segment size="small" style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
-                                            <Header color="black">20</Header>
+                                            <Header as="h5" color="black">20</Header>
                                         </Segment>                                    </GridColumn>
                                 </Grid>
                             </GridColumn>
