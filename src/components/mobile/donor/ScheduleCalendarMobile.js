@@ -48,8 +48,8 @@ const ScheduleCalendarMobile = () => {
                     <GridColumn>
                         <Segment basic>
                         <Header  id="big_text">Select Date</Header>
-                            <div style={{width: 800}}>
-                                <Calendar style={{width: '491px'}} onChange={onChange} value={value} />
+                            <div style={{}}>
+                                <Calendar style={{}} onChange={onChange} value={value} />
                             </div>
                         </Segment>
                     </GridColumn>
