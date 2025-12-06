@@ -20,6 +20,7 @@ const NotificationMobile = () => {
                  Notifications
             </Header>
             <p>
+                <Grid>
                 <GridRow>
                     <GridColumn>
                         <Header>
@@ -110,6 +111,7 @@ const NotificationMobile = () => {
                     </GridColumn>
                     
                 </GridRow>
+                </Grid>
             </p> 
         </div>
     )

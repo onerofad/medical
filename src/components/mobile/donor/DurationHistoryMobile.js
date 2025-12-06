@@ -26,10 +26,10 @@ const DurationHistoryMobile = () => {
                             <GridColumn>
                                 <Segment style={{backgroundColor: '#D10000', width: '90%', borderRadius: 15}}>
                                     <Grid columns={2}>
-                                        <GridColumn>
+                                        <GridColumn width={14}>
                                             <Header textAlign="left" inverted color="white">Total Donation</Header>
                                         </GridColumn>
-                                        <GridColumn>
+                                        <GridColumn width={2}>
                                             <Header inverted color="white" textAlign="right">5</Header>
                                         </GridColumn>
                                     </Grid>
@@ -81,7 +81,7 @@ const DurationHistoryMobile = () => {
                         <Grid>
                             <GridColumn>
                                 <Segment style={{borderWidth: '2px', borderStyle: 'solid', borderColor: '#D10000', backgroundColor: '#FFFFFF', width: '90%', borderRadius: 15}}>
-                                    <Grid columns={2}>
+                                    <Grid columns={1}>
                                         <GridColumn>
                                             <Header textAlign="left" color="black">Donation Stats</Header>
                                         </GridColumn>
@@ -123,10 +123,10 @@ const DurationHistoryMobile = () => {
                             <GridColumn>
                                 <Segment style={{backgroundColor: '#D10000', width: '90%', borderRadius: 15}}>
                                     <Grid columns={2}>
-                                        <GridColumn>
+                                        <GridColumn width={14}>
                                             <Header textAlign="left" inverted color="white">Your Impact</Header>
                                         </GridColumn>
-                                        <GridColumn>
+                                        <GridColumn width={2}>
                                             <Header inverted color="white" textAlign="right">9</Header>
                                         </GridColumn>
                                     </Grid>
