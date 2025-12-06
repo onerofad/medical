@@ -7,6 +7,7 @@ import ClinicMobile from "./ClinicMobile"
 import ScheduleCalendarMobile from "./ScheduleCalendarMobile"
 import UrgentRequestMobile from "./UrgentRequestMobile"
 import NotificationMobile from "./NotificationMobile"
+import DurationHistoryMobile from "./DurationHistoryMobile"
 
 const HomeMobileDonor = () => {
     return(
@@ -19,6 +20,7 @@ const HomeMobileDonor = () => {
         <ScheduleCalendarMobile />
         <UrgentRequestMobile />
         <NotificationMobile />
+        <DurationHistoryMobile />
         <FooterMobile />
         </>
 
