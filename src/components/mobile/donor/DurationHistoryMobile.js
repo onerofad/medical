@@ -24,7 +24,7 @@ const DurationHistoryMobile = () => {
                     <Segment raised style={{height: 320, backgroundColor: '#fff', borderRadius: 15, padding: 40, marginTop: 40}}>
                         <Grid>
                             <GridColumn>
-                                <Segment style={{backgroundColor: '#D10000', width: '80%', borderRadius: 15}}>
+                                <Segment style={{backgroundColor: '#D10000', width: '90%', borderRadius: 15}}>
                                     <Grid columns={2}>
                                         <GridColumn>
                                             <Header textAlign="left" inverted color="white">Total Donation</Header>
@@ -52,20 +52,20 @@ const DurationHistoryMobile = () => {
                                 </p>
                                 <Grid columns={4}>
                                     <GridColumn>
-                                        <Segment style={{width: 75, height: 75, backgroundColor: '#D10000'}} circular>
+                                        <Segment style={{width: 40, height: 40, backgroundColor: '#D10000'}} circular>
                                             <Header inverted color="white">5</Header>
                                         </Segment>
                                     </GridColumn>
                                     <GridColumn>
-                                        <Segment style={{width: 75, height: 75, backgroundColor: '#F7F2F3'}} circular>
+                                        <Segment style={{width: 40, height: 40, backgroundColor: '#F7F2F3'}} circular>
                                             <Header color="black">10</Header>
                                         </Segment>                                    </GridColumn>
                                     <GridColumn>
-                                        <Segment style={{width: 75, height: 75, backgroundColor: '#F7F2F3'}} circular>
+                                        <Segment style={{width: 40, height: 40, backgroundColor: '#F7F2F3'}} circular>
                                             <Header color="black">15</Header>
                                         </Segment>                                    </GridColumn>
                                     <GridColumn>
-                                        <Segment style={{width: 75, height: 75, backgroundColor: '#F7F2F3'}} circular>
+                                        <Segment style={{width: 40, height: 40, backgroundColor: '#F7F2F3'}} circular>
                                             <Header color="black">20</Header>
                                         </Segment>                                    </GridColumn>
                                 </Grid>
@@ -80,7 +80,7 @@ const DurationHistoryMobile = () => {
                     <Segment raised style={{height: 320, backgroundColor: '#F7F2F3', borderRadius: 15, padding: 40, marginTop: 40}}>
                         <Grid>
                             <GridColumn>
-                                <Segment style={{borderWidth: '2px', borderStyle: 'solid', borderColor: '#D10000', backgroundColor: '#FFFFFF', width: '80%', borderRadius: 15}}>
+                                <Segment style={{borderWidth: '2px', borderStyle: 'solid', borderColor: '#D10000', backgroundColor: '#FFFFFF', width: '90%', borderRadius: 15}}>
                                     <Grid columns={2}>
                                         <GridColumn>
                                             <Header textAlign="left" color="black">Donation Stats</Header>
@@ -121,7 +121,7 @@ const DurationHistoryMobile = () => {
                     <Segment raised style={{height: 320, backgroundColor: '#fff', borderRadius: 15, padding: 40, marginTop: 40}}>
                         <Grid>
                             <GridColumn>
-                                <Segment style={{backgroundColor: '#D10000', width: '80%', borderRadius: 15}}>
+                                <Segment style={{backgroundColor: '#D10000', width: '90%', borderRadius: 15}}>
                                     <Grid columns={2}>
                                         <GridColumn>
                                             <Header textAlign="left" inverted color="white">Your Impact</Header>
