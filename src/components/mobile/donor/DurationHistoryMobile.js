@@ -26,10 +26,10 @@ const DurationHistoryMobile = () => {
                             <GridColumn>
                                 <Segment style={{backgroundColor: '#D10000', width: '90%', borderRadius: 15}}>
                                     <Grid columns={2}>
-                                        <GridColumn width={14}>
+                                        <GridColumn width={12}>
                                             <Header textAlign="left" inverted color="white">Total Donation</Header>
                                         </GridColumn>
-                                        <GridColumn width={2}>
+                                        <GridColumn width={4}>
                                             <Header inverted color="white" textAlign="right">5</Header>
                                         </GridColumn>
                                     </Grid>
@@ -52,20 +52,20 @@ const DurationHistoryMobile = () => {
                                 </p>
                                 <Grid columns={4}>
                                     <GridColumn>
-                                        <Segment style={{width: 40, height: 40, backgroundColor: '#D10000'}} circular>
+                                        <Segment style={{width: 20, height: 20, backgroundColor: '#D10000'}} circular>
                                             <Header inverted color="white">5</Header>
                                         </Segment>
                                     </GridColumn>
                                     <GridColumn>
-                                        <Segment style={{width: 40, height: 40, backgroundColor: '#F7F2F3'}} circular>
+                                        <Segment style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
                                             <Header color="black">10</Header>
                                         </Segment>                                    </GridColumn>
                                     <GridColumn>
-                                        <Segment style={{width: 40, height: 40, backgroundColor: '#F7F2F3'}} circular>
+                                        <Segment style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
                                             <Header color="black">15</Header>
                                         </Segment>                                    </GridColumn>
                                     <GridColumn>
-                                        <Segment style={{width: 40, height: 40, backgroundColor: '#F7F2F3'}} circular>
+                                        <Segment style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
                                             <Header color="black">20</Header>
                                         </Segment>                                    </GridColumn>
                                 </Grid>
@@ -123,10 +123,10 @@ const DurationHistoryMobile = () => {
                             <GridColumn>
                                 <Segment style={{backgroundColor: '#D10000', width: '90%', borderRadius: 15}}>
                                     <Grid columns={2}>
-                                        <GridColumn width={14}>
+                                        <GridColumn width={12}>
                                             <Header textAlign="left" inverted color="white">Your Impact</Header>
                                         </GridColumn>
-                                        <GridColumn width={2}>
+                                        <GridColumn width={4}>
                                             <Header inverted color="white" textAlign="right">9</Header>
                                         </GridColumn>
                                     </Grid>
