@@ -52,21 +52,21 @@ const DurationHistoryMobile = () => {
                                 </p>
                                 <Grid columns={4}>
                                     <GridColumn>
-                                        <Segment size="small" style={{width: 20, height: 20, backgroundColor: '#D10000'}} circular>
-                                            <Header as="h5" inverted color="white">5</Header>
+                                        <Segment size="mini" style={{width: 20, height: 20, backgroundColor: '#D10000'}} circular>
+                                            <Header as="h6" inverted color="white">5</Header>
                                         </Segment>
                                     </GridColumn>
                                     <GridColumn>
-                                        <Segment size="small" style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
-                                            <Header as="h5" color="black">10</Header>
+                                        <Segment size="mini" style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
+                                            <Header as="h6" color="black">10</Header>
                                         </Segment>                                    </GridColumn>
                                     <GridColumn>
-                                        <Segment size="small" style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
-                                            <Header as="h5" color="black">15</Header>
+                                        <Segment size="mini" style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
+                                            <Header as="h6" color="black">15</Header>
                                         </Segment>                                    </GridColumn>
                                     <GridColumn>
-                                        <Segment size="small" style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
-                                            <Header as="h5" color="black">20</Header>
+                                        <Segment size="mini" style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
+                                            <Header as="h6" color="black">20</Header>
                                         </Segment>                                    </GridColumn>
                                 </Grid>
                             </GridColumn>
