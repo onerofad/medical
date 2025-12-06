@@ -4,7 +4,7 @@ import '../../../css/style.css'
 
 const UrgentRequestMobile = () => {
     return(
-        <div style={{margin: 0, padding: '50px 20px', background: '#F8F9FA'}}>
+        <div style={{margin: 0, padding: '50px 10px', background: '#F8F9FA'}}>
             <Header
                 style={{
                     color: '#333',
