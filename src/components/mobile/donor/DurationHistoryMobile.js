@@ -52,20 +52,20 @@ const DurationHistoryMobile = () => {
                                 </p>
                                 <Grid columns={4}>
                                     <GridColumn>
-                                        <Segment style={{width: 20, height: 20, backgroundColor: '#D10000'}} circular>
+                                        <Segment size="small" style={{width: 20, height: 20, backgroundColor: '#D10000'}} circular>
                                             <Header inverted color="white">5</Header>
                                         </Segment>
                                     </GridColumn>
                                     <GridColumn>
-                                        <Segment style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
+                                        <Segment size="small" style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
                                             <Header color="black">10</Header>
                                         </Segment>                                    </GridColumn>
                                     <GridColumn>
-                                        <Segment style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
+                                        <Segment size="small" style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
                                             <Header color="black">15</Header>
                                         </Segment>                                    </GridColumn>
                                     <GridColumn>
-                                        <Segment style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
+                                        <Segment size="small" style={{width: 20, height: 20, backgroundColor: '#F7F2F3'}} circular>
                                             <Header color="black">20</Header>
                                         </Segment>                                    </GridColumn>
                                 </Grid>
