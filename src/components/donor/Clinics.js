@@ -63,15 +63,15 @@ const Clinics = () => {
                 </GridColumn>
                 <GridColumn width={4}>
                     <p id="big_text3" style={{marginTop: 40}}>
-                        <Icon size="large" name="calendar outline" color="red" />
+                        <Icon size="large" name="clipboard list" color="red" />
                          COLLECTION TYPE
                     </p>
                     <p id="big_text3">
-                        <Icon size="large" name="calendar outline" color="red" />
+                        <Icon size="large" name="calendar alternate outline" color="red" />
                         SCHEDULE APPOINTMENT
                     </p>
                     <p id="big_text3">
-                        <Icon size="large" name="calendar outline" color="red" />
+                        <Icon size="large" name="map marker alternate" color="red" />
                         GET DIRECTION
                     </p>
                 </GridColumn>
@@ -137,16 +137,16 @@ const Clinics = () => {
                     </p>
                 </GridColumn>
                 <GridColumn width={4}>
-                    <p id="big_text3" style={{marginTop: 40}}>
-                        <Icon size="large" name="calendar outline" color="red" />
+                     <p id="big_text3" style={{marginTop: 40}}>
+                        <Icon size="large" name="clipboard list" color="red" />
                          COLLECTION TYPE
                     </p>
                     <p id="big_text3">
-                        <Icon size="large" name="calendar outline" color="red" />
+                        <Icon size="large" name="calendar alternate outline" color="red" />
                         SCHEDULE APPOINTMENT
                     </p>
                     <p id="big_text3">
-                        <Icon size="large" name="calendar outline" color="red" />
+                        <Icon size="large" name="map marker alternate" color="red" />
                         GET DIRECTION
                     </p>
                 </GridColumn>
@@ -212,16 +212,16 @@ const Clinics = () => {
                     </p>
                 </GridColumn>
                 <GridColumn width={4}>
-                    <p id="big_text3" style={{marginTop: 40}}>
-                        <Icon size="large" name="calendar outline" color="red" />
+                     <p id="big_text3" style={{marginTop: 40}}>
+                        <Icon size="large" name="clipboard list" color="red" />
                          COLLECTION TYPE
                     </p>
                     <p id="big_text3">
-                        <Icon size="large" name="calendar outline" color="red" />
+                        <Icon size="large" name="calendar alternate outline" color="red" />
                         SCHEDULE APPOINTMENT
                     </p>
                     <p id="big_text3">
-                        <Icon size="large" name="calendar outline" color="red" />
+                        <Icon size="large" name="map marker alternate" color="red" />
                         GET DIRECTION
                     </p>
                 </GridColumn>
