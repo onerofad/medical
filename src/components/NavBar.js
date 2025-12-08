@@ -87,6 +87,13 @@ const NavBar = ({link_value}) => {
                     fontWeight: 400,
                     lineHeight: 'normal'
                 }}
+                as="a"
+                name="Recipient"
+                active={activeItem === "Recipient"}
+                onClick={() => {
+                    setActiveItem("Recipient")
+                    navigate("/recipients")
+                }}
             >
                 Recepient
             </Menu.Item>
