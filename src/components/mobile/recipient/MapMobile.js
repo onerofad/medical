@@ -1,4 +1,4 @@
-import { Button, Form, FormField, FormInput, FormSelect, Grid, GridColumn, Header, Image, Segment } from "semantic-ui-react"
+import { Button, Form, FormField, FormInput, FormSelect, Header, Image, Segment } from "semantic-ui-react"
 import map from '../../../assets/images/map.png'
 
 
