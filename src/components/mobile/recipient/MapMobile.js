@@ -6,12 +6,10 @@ const MapMobile = () => {
     return(
         <div style={{margin: '20px 0px', padding: '0px 0px'}}>
 
-            <Grid columns={1} centered>
-                <GridColumn style={{padding: 0}}>
-                    <Segment vertical textAlign="center" color="red" inverted>
+                <Segment vertical textAlign="center" color="red" inverted>
                         <Header as="h2">Map</Header>
-                    </Segment>
-                </GridColumn>
+                </Segment>
+                <Grid columns={1} centered>
                 {/*<GridColumn style={{backgroundColor: '#F8F9FA', padding: '100px 50px'}}>
                     <Form>
                         <FormField>
