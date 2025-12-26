@@ -43,9 +43,11 @@ const NotificationRecipientMobile = () => {
                 </GridColumn>
                 </GridRow>
                 <GridRow>
+                    <GridColumn>
                     <Header>
                         Today
                     </Header>
+                    </GridColumn>
                 </GridRow>
                 <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3'}} basic>
                     <GridColumn width={2} verticalAlign="middle">
@@ -101,7 +103,7 @@ const NotificationRecipientMobile = () => {
  
                         </p>
                     </GridColumn>
-                    4<GridColumn width={3} verticalAlign="middle">
+                    <GridColumn width={3} verticalAlign="middle">
                         <Header id="small_text4">2 months ago</Header>
                     </GridColumn>
                 </GridRow>
