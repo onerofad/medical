@@ -10,7 +10,7 @@ const MapMobile = () => {
                         <Header as="h2">Map</Header>
                 </Segment>
                 <Grid columns={1} centered>
-                {/*<GridColumn style={{backgroundColor: '#F8F9FA', padding: '100px 50px'}}>
+                <GridColumn style={{backgroundColor: '#F8F9FA', padding: '100px 50px'}}>
                     <Form>
                         <FormField>
                             <label style={{fontWeight: 400, fontStyle: 'normal', fontSize: 18, fontFamily: 'Inter'}}>Blood Group</label>
@@ -102,9 +102,9 @@ const MapMobile = () => {
                         </FormField>
                     </Form>
 
-                </GridColumn>*/}
+                </GridColumn>
                  </Grid>
-                <Image src={map} style={{}} />
+                <Image src={map} style={{marginTop: 30}} />
            
         </div>
     )
