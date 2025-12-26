@@ -7,7 +7,7 @@ const MapMobile = () => {
         <div>
            
             <Grid columns={1}>
-                <GridColumn>
+                <GridColumn width={16}>
                     <Segment vertical textAlign="center" color="red" inverted>
                         <Header as="h2">Map</Header>
                     </Segment>
