@@ -96,6 +96,7 @@ const NavBarMobile = () => {
                         Recepient
                     </Menu.Item>
                     <Menu.Item
+                    onClick={() => navigate("/hospitals")}
                     style={{
                             color: '#333',
                             fontFamily: 'Inter',
