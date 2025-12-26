@@ -11,8 +11,8 @@ const HomeMobileRecipient = () => {
         <>
         <NavBarMobile />
         <DonorNearMobile />
-        {/*<MapMobile />
-        <ResultNearMobile />*/}
+        {/*<MapMobile />*/}
+        <ResultNearMobile />
         <NotificationRecipientMobile />
         <FooterMobile />
         </>
