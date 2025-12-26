@@ -9,6 +9,7 @@ import HomeMobileAbout from './components/mobile/About/HomeMobileAbout';
 import HomeDonor from './components/donor/Home';
 import HomeMobileDonor from './components/mobile/donor/HomeMobileDonor';
 import HomeRecipient from './components/recipients/Home';
+import HomeHospital from './components/hospital/Home';
 
 const {Media, MediaContextProvider} = createMedia({
   breakpoints: {
@@ -38,6 +39,7 @@ function App() {
             <Route path='/about' element={<HomeAbout />} />
             <Route path='/donor' element={<HomeDonor />} />
             <Route path='/recipients' element={<HomeRecipient />} />
+            <Route path='/hospitals' element={<HomeHospital />} />
           </Routes>
         </BrowserRouter>
       </Media>

@@ -19,11 +19,11 @@ const NavBar = ({link_value}) => {
             </Menu.Item>
             <Menu.Item
                 style={{
-                    color: '#D10000',
+                    color: '#333',
                     fontFamily: 'Inter',
                     fontSize: '16px',
                     fontStyle: 'normal',
-                    fontWeight: 900,
+                    fontWeight: 400,
                     lineHeight: 'normal'
                 }}
                 as="a"
@@ -105,6 +105,13 @@ const NavBar = ({link_value}) => {
                     fontStyle: 'normal',
                     fontWeight: 400,
                     lineHeight: 'normal'
+                }}
+                as="a"
+                name="Hospital"
+                active={activeItem === "Hospital"}
+                onClick={() => {
+                    setActiveItem("Hospital")
+                    navigate("/hospitals")
                 }}
             >
                 Hospital
