@@ -6,12 +6,12 @@ const MapMobile = () => {
     return(
         <div>
             <Grid columns={1}>
-                {/*<GridColumn style={{padding: 0}}>
+                <GridColumn style={{padding: 0}}>
                     <Segment vertical textAlign="center" color="red" inverted>
                         <Header as="h2">Map</Header>
                     </Segment>
-                </GridColumn>*/}
-                <GridColumn style={{backgroundColor: '#F8F9FA', padding: '100px 50px'}}>
+                </GridColumn>
+                {/*<GridColumn style={{backgroundColor: '#F8F9FA', padding: '100px 50px'}}>
                     <Form>
                         <FormField>
                             <label style={{fontWeight: 400, fontStyle: 'normal', fontSize: 18, fontFamily: 'Inter'}}>Blood Group</label>
@@ -103,7 +103,7 @@ const MapMobile = () => {
                         </FormField>
                     </Form>
 
-                </GridColumn>
+                </GridColumn>*/}
                 <GridColumn style={{padding: 0}}>
                     <Image src={map} style={{}} />
                 </GridColumn>
