@@ -60,14 +60,14 @@ const NotificationRecipientMobile = () => {
                         </p>
                     </GridColumn>
                     <GridColumn width={4} verticalAlign="middle">
-                       <Header>5 min ago</Header>
+                       <Header id="small_text4">5 min ago</Header>
                     </GridColumn>
                 </GridRow>
                 <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3'}} basic>
-                    <GridColumn width={1} verticalAlign="middle">
+                    <GridColumn width={2} verticalAlign="middle">
                        
                     </GridColumn>
-                    <GridColumn width={12}>
+                    <GridColumn width={10}>
                         <Header id="big_text4">
                             Profile Picture Updated 
                         </Header>
@@ -75,22 +75,24 @@ const NotificationRecipientMobile = () => {
                             Your profile picture as been successfully updated.                        
                         </p>
                     </GridColumn>
-                    <GridColumn width={3} verticalAlign="middle">
-                         <Header>5 days ago</Header>
+                    <GridColumn width={4} verticalAlign="middle">
+                         <Header id="small_text4">5 days ago</Header>
                     </GridColumn>
                 </GridRow>
 
 
                  <GridRow>
+                    <GridColumn>
                     <Header color="red">
                         Last Week
                     </Header>
+                    </GridColumn>
                 </GridRow>
                 <GridRow raised as={Segment} style={{borderRadius: 15, backgroundColor: '#FFF'}} basic>
-                    <GridColumn width={1} verticalAlign="middle">
+                    <GridColumn width={2} verticalAlign="middle">
                         <Icon size="big" color="red" name="rejected" />
                     </GridColumn>
-                    <GridColumn width={12}>
+                    <GridColumn width={10}>
                         <Header id="small_text4">
                             Request Rejected
                         </Header>
@@ -99,15 +101,15 @@ const NotificationRecipientMobile = () => {
  
                         </p>
                     </GridColumn>
-                    <GridColumn width={3} verticalAlign="middle">
-                        <Header>2 months ago</Header>
+                    4<GridColumn width={3} verticalAlign="middle">
+                        <Header id="small_text4">2 months ago</Header>
                     </GridColumn>
                 </GridRow>
                 <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#FFF'}} basic>
-                    <GridColumn width={1} verticalAlign="middle">
+                    <GridColumn width={2} verticalAlign="middle">
                         <Icon size="big" color="red" name="heart" />
                     </GridColumn>
-                    <GridColumn width={12}>
+                    <GridColumn width={10}>
                         <Header id="big_text4">
                            Gift Hand Hospital
                         </Header>
@@ -115,8 +117,8 @@ const NotificationRecipientMobile = () => {
                             We are happy to inform you that the donor blood has been received! This brings us one step closer to your recovery and well-being. 
                         </p>
                     </GridColumn>
-                    <GridColumn width={3} verticalAlign="middle">
-                        <Header>1 months ago</Header>
+                    <GridColumn width={4} verticalAlign="middle">
+                        <Header id="small_text4">1 months ago</Header>
                     </GridColumn>
                 </GridRow>
             </Grid> 

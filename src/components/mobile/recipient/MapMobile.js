@@ -5,10 +5,13 @@ import map from '../../../assets/images/map.png'
 const MapMobile = () => {
     return(
         <div>
-            <Segment textAlign="center" color="red" inverted>
-                <Header as="h2">Map</Header>
-            </Segment>
+           
             <Grid columns={1}>
+                <GridColumn>
+                    <Segment vertical textAlign="center" color="red" inverted>
+                        <Header as="h2">Map</Header>
+                    </Segment>
+                </GridColumn>
                 <GridColumn style={{backgroundColor: '#F8F9FA', padding: '100px 50px'}}>
                     <Form>
                         <FormField>
