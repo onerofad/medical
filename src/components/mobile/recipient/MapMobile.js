@@ -9,7 +9,7 @@ const MapMobile = () => {
                 <Segment vertical textAlign="center" color="red" inverted>
                         <Header as="h2">Map</Header>
                 </Segment>
-                
+
                     <Form style={{backgroundColor: '#F8F9FA', padding: '100px 50px'}}>
                         <FormField>
                             <label style={{fontWeight: 400, fontStyle: 'normal', fontSize: 18, fontFamily: 'Inter'}}>Blood Group</label>
@@ -102,7 +102,7 @@ const MapMobile = () => {
                     </Form>
 
              
-                <Image src={map} style={{marginTop: 30}} />
+                <Image src={map} style={{marginTop: 0}} />
            
         </div>
     )
