@@ -19,22 +19,22 @@ const TransferHistoryMobile = () => {
                 >
                     Transfer History
                 </Header> 
-             <Grid style={{marginTop: 40}} columns={6}>
-                <GridRow style={{ padding: '20px 40px'}}>
+             <Grid style={{marginTop: 40}} columns={4}>
+                <GridRow style={{ padding: '20px 10px'}}>
                     <GridColumn><Header id="big-text2" color="red"  content="Date" /></GridColumn>
                     <GridColumn><Header id="big-text2" color="red"  content="Donor Name" /></GridColumn>
                     <GridColumn><Header id="big-text2" color="red" content="Blood Type" /></GridColumn>
                     <GridColumn><Header id="big-text2" color="red"  content="Amount" /></GridColumn>
-                    <GridColumn><Header id="big-text2" color="red"  content="Status" /></GridColumn>
-                    <GridColumn><Header id="big-text2" color="red"  content="Date Paid" /></GridColumn>
+                    {/*<GridColumn><Header id="big-text2" color="red"  content="Status" /></GridColumn>
+                    <GridColumn><Header id="big-text2" color="red"  content="Date Paid" /></GridColumn>*/}
                 </GridRow>
                 
-                <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3', padding: '20px 40px'}} basic>
+                <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3', padding: '20px 10px'}} basic>
                     <GridColumn><p id="small_text2">25/03 2025</p></GridColumn>
                     <GridColumn><p id="small_text2">Serah Johnson</p></GridColumn>
                     <GridColumn><p id="small_text2">O+</p></GridColumn>
                     <GridColumn><p id="big_text">2000</p></GridColumn>
-                    <GridColumn>
+                    {/*<GridColumn>
                         <Button style={{
                             width: 120, 
                             borderRadius: 15, 
@@ -47,14 +47,14 @@ const TransferHistoryMobile = () => {
                             Pending
                         </Button>
                     </GridColumn>
-                    <GridColumn><p id="small_text2">Not Paid</p></GridColumn>
+                    <GridColumn><p id="small_text2">Not Paid</p></GridColumn>*/}
                 </GridRow> 
-                  <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3', padding: '20px 40px'}} basic>
+                  <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3', padding: '20px 10px'}} basic>
                     <GridColumn><p id="small_text2">25/03 2025</p></GridColumn>
                     <GridColumn><p id="small_text2">Aminu Abu</p></GridColumn>
                     <GridColumn><p id="small_text2">B+</p></GridColumn>
                     <GridColumn><p id="big_text">2000</p></GridColumn>
-                    <GridColumn>
+                    {/*<GridColumn>
                         <Button 
                             style={{
                             width: 120, 
@@ -69,14 +69,14 @@ const TransferHistoryMobile = () => {
                             Paid
                         </Button>
                     </GridColumn>
-                    <GridColumn><p id="small_text2">27/03 2025</p></GridColumn>
+                    <GridColumn><p id="small_text2">27/03 2025</p></GridColumn>*/}
                 </GridRow> 
-                  <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3', padding: '20px 40px'}} basic>
+                  <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3', padding: '20px 10px'}} basic>
                     <GridColumn><p id="small_text2">25/03 2025</p></GridColumn>
                     <GridColumn><p id="small_text2">Chi Chi Ugo</p></GridColumn>
                     <GridColumn><p id="small_text2">AB+</p></GridColumn>
                     <GridColumn><p id="big_text">2000</p></GridColumn>
-                    <GridColumn>
+                    {/*<GridColumn>
                         <Button style={{
                             width: 120, 
                             borderRadius: 15, 
@@ -90,14 +90,14 @@ const TransferHistoryMobile = () => {
                             Paid
                         </Button>
                     </GridColumn>
-                    <GridColumn><p id="small_text2">27/03 2025</p></GridColumn>
+                    <GridColumn><p id="small_text2">27/03 2025</p></GridColumn>*/}
                 </GridRow> 
-                <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3', padding: '20px 40px'}} basic>
+                <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3', padding: '20px 10px'}} basic>
                     <GridColumn><p id="small_text2">25/03 2025</p></GridColumn>
                     <GridColumn><p id="small_text2">Joy Friday</p></GridColumn>
                     <GridColumn><p id="small_text2">O+</p></GridColumn>
                     <GridColumn><p id="big_text">2000</p></GridColumn>
-                    <GridColumn>
+                    {/*<GridColumn>
                         <Button style={{
                             width: 120, 
                             borderRadius: 15, 
@@ -111,14 +111,14 @@ const TransferHistoryMobile = () => {
                             Paid
                         </Button>
                     </GridColumn>
-                    <GridColumn><p id="small_text2">27/03 2025</p></GridColumn>
+                    <GridColumn><p id="small_text2">27/03 2025</p></GridColumn>*/}
                 </GridRow> 
-                <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3', padding: '20px 40px'}} basic>
+                <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3', padding: '20px 10px'}} basic>
                     <GridColumn><p id="small_text2">25/03 2025</p></GridColumn>
                     <GridColumn><p id="small_text2">Aminu Zaki</p></GridColumn>
                     <GridColumn><p id="small_text2">B+</p></GridColumn>
                     <GridColumn><p id="big_text">2000</p></GridColumn>
-                    <GridColumn>
+                    {/*<GridColumn>
                         <Button style={{
                             width: 120, 
                             borderRadius: 15, 
@@ -132,7 +132,7 @@ const TransferHistoryMobile = () => {
                             Paid
                         </Button>
                     </GridColumn>
-                    <GridColumn><p id="small_text2">27/03 2025</p></GridColumn>
+                    <GridColumn><p id="small_text2">27/03 2025</p></GridColumn>*/}
                 </GridRow> 
                 </Grid>
         </div>
