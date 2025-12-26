@@ -41,11 +41,11 @@ const NavBarMobile = () => {
                     <Menu.Item
                     onClick={() => navigate("/")}
                         style={{
-                            color: '#D10000',
+                            color: '#333',
                             fontFamily: 'Inter',
                             fontSize: '16px',
                             fontStyle: 'normal',
-                            fontWeight: 900,
+                            fontWeight: 400,
                             lineHeight: 'normal'
                         }}
                         as="a"
@@ -81,6 +81,7 @@ const NavBarMobile = () => {
                         Donor
                     </Menu.Item>
                     <Menu.Item
+                    onClick={() => navigate("/recipients")}
                     style={{
                             color: '#333',
                             fontFamily: 'Inter',

@@ -8,6 +8,7 @@ import HomeAbout from './components/about/Home';
 import HomeMobileAbout from './components/mobile/About/HomeMobileAbout';
 import HomeDonor from './components/donor/Home';
 import HomeMobileDonor from './components/mobile/donor/HomeMobileDonor';
+import HomeMobileRecipient from './components/mobile/recipient/HomeMobileRecipient';
 import HomeRecipient from './components/recipients/Home';
 import HomeHospital from './components/hospital/Home';
 
@@ -29,6 +30,7 @@ function App() {
             <Route index element={<HomeMobile />} />
             <Route path='/about' element={<HomeMobileAbout />} />
             <Route path="/donor" element={<HomeMobileDonor />} />
+            <Route path="/recipients" element={<HomeMobileRecipient />} />
           </Routes>
         </BrowserRouter>
       </Media>
