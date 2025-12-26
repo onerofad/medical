@@ -40,7 +40,7 @@ const DonorNearMobile = () => {
                 See result that match with your request
             </Header>  
 
-            <Grid columns={1}>
+            <Grid columns={1} centered padded='horizontally'>
                     <GridColumn>
                         <Segment style={{borderRadius: 15, backgroundColor: '#F7F2F3', borderWidth: 2, borderColor: '#D10000', borderStyle: 'solid'}}>
                             <Grid columns={2}>
