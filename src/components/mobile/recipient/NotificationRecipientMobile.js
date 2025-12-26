@@ -48,10 +48,10 @@ const NotificationRecipientMobile = () => {
                     </Header>
                 </GridRow>
                 <GridRow as={Segment} style={{borderRadius: 15, backgroundColor: '#F7F2F3'}} basic>
-                    <GridColumn width={1} verticalAlign="middle">
+                    <GridColumn width={2} verticalAlign="middle">
                         <Icon size="big" color="red" name="map marker" />
                     </GridColumn>
-                    <GridColumn width={12}>
+                    <GridColumn width={10}>
                         <Header id="small_text4">
                            Request 
                         </Header>
@@ -59,7 +59,7 @@ const NotificationRecipientMobile = () => {
                             Request sent successfully  to donor
                         </p>
                     </GridColumn>
-                    <GridColumn width={3} verticalAlign="middle">
+                    <GridColumn width={4} verticalAlign="middle">
                        <Header>5 min ago</Header>
                     </GridColumn>
                 </GridRow>
