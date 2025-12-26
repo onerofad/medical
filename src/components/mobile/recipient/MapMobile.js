@@ -106,7 +106,7 @@ const MapMobile = () => {
 
                 </GridColumn>*/}
                 <GridColumn style={{padding: 0}}>
-                    <Image src={map} style={{}} />
+                    <Image src={map} centered style={{}} />
                 </GridColumn>
             </Grid>
         </div>
