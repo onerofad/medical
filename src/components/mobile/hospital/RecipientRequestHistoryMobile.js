@@ -20,7 +20,7 @@ const RecipientRequestHistoryMobile = () => {
                     Recipient Request
                 </Header> 
              <Grid style={{marginTop: 40}} columns={4}>
-                <GridRow style={{ padding: '20px 40px'}}>
+                <GridRow style={{ padding: '20px 10px'}}>
                     <GridColumn><Header id="big-text2" color="red"  content="Request ID" /></GridColumn>
                     <GridColumn><Header id="big-text2" color="red"  content="Blood Type" /></GridColumn>
                     <GridColumn><Header id="big-text2" color="red" content="Urgency" /></GridColumn>
@@ -34,7 +34,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">O+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 120, 
+                            width: 90, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -57,7 +57,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">A-</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 120, 
+                            width: 90, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -81,7 +81,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">B+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 120, 
+                            width: 90, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -105,7 +105,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">AB+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 120, 
+                            width: 90, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -129,7 +129,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">O+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 120, 
+                            width: 90, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -153,7 +153,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">A-</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 120, 
+                            width: 90, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -177,7 +177,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">B+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 120, 
+                            width: 90, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -201,7 +201,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">AB+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 120, 
+                            width: 90, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -225,7 +225,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">O+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 120, 
+                            width: 90, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -249,7 +249,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">A-</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 120, 
+                            width: 90, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',

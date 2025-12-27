@@ -1,4 +1,4 @@
-import { Grid, GridRow, GridColumn, Header, Segment, Button} from "semantic-ui-react"
+import { Grid, GridRow, GridColumn, Header, Segment} from "semantic-ui-react"
 
 
 const TransferHistoryMobile = () => {
