@@ -66,7 +66,7 @@ const RecipientRequestHistoryMobile = () => {
                             color: 'red'
                             }}
                         >
-                            Medium
+                            Low
                         </Button>
                     </GridColumn>
                     <GridColumn><p id="big_text">10:55 AM</p></GridColumn>
@@ -90,7 +90,7 @@ const RecipientRequestHistoryMobile = () => {
                             color: 'red'
                             }}
                         >
-                            Medium
+                            High
                         </Button>
                     </GridColumn>
                     <GridColumn><p id="big_text">11:00 AM</p></GridColumn>
