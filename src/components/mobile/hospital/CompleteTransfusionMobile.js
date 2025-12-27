@@ -19,7 +19,7 @@ const CompleteTransfusionMobile = () => {
                 >
                     Complete Transfusion
                 </Header> 
-             <Grid style={{marginTop: 40}} columns={6}>
+             <Grid style={{marginTop: 40}} columns={4}>
                 <GridRow style={{ padding: '20px 10px'}}>
                     <GridColumn><Header id="big-text2" color="red"  content="Donor Name" /></GridColumn>
                     <GridColumn><Header id="big-text2" color="red"  content="Blood Type" /></GridColumn>

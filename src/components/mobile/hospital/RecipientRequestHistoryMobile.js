@@ -34,7 +34,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">O+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 90, 
+                            width: 70, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -57,7 +57,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">A-</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 90, 
+                            width: 70, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -81,7 +81,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">B+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 90, 
+                            width: 70, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -105,7 +105,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">AB+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 90, 
+                            width: 70, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -129,7 +129,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">O+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 90, 
+                            width: 70, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -153,7 +153,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">A-</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 90, 
+                            width: 70, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -177,7 +177,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">B+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 90, 
+                            width: 70, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -201,7 +201,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">AB+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 90, 
+                            width: 70, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -225,7 +225,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">O+</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 90, 
+                            width: 70, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
@@ -249,7 +249,7 @@ const RecipientRequestHistoryMobile = () => {
                     <GridColumn><p id="small_text2">A-</p></GridColumn>
                     <GridColumn>
                          <Button style={{
-                            width: 90, 
+                            width: 70, 
                             borderRadius: 15, 
                             backgroundColor: '#fff',
                             borderStyle: 'solid',
